@@ -1,0 +1,37 @@
+---
+layout: index
+title: Homepage - RTPSUG
+tagline: Research Triangle PowerShell User Group
+css: 
+js: sliders.js
+keywords: helium, jekyll, bootstrap, UI, kit
+canonical: https://rtpsug.com
+---
+{% include JB/setup %}
+<!-- Content Area Start -->
+
+<div id="content">
+
+    <div class="container">
+      <div class="row">
+      {% for post in site.posts %}
+        <div class="col-xs-12 col-sm-12">
+          <div class="blog-block post-content-area">
+          <div class="blog-post">
+            <h3><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h3>
+            <p>{{ post.excerpt }}</p>
+             <a class="btn btn-common" href="{{ BASE_PATH }}{{ post.url }}">Read More</a>
+          </div>
+          {% if post.img %}	  
+             <img src="{{ BASE_PATH }}/assets/images/{{ post.img }}" href="{{ BASE_PATH }}{{ post.url }}" alt="{{ post.title }} image">
+          {% endif %}
+          </div>
+          <div class="mb-60"></div>
+        </div>
+      {% endfor %}
+      </div>
+    </div>
+	
+           
+<!-- Content area end -->
+</div>
