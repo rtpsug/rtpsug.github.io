@@ -1,7 +1,7 @@
 ---
 layout: post
 category : meetups
-tagline: Git 101: "Git" up to speed on Git and source control
+tagline: Git up to speed on Git and source control
 tags : [bootstrap 4, web desing, jekyll]
 img : meetups/2019-03-06.jpg
 img-mobile : 
