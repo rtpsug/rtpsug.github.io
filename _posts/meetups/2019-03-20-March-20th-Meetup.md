@@ -3,7 +3,7 @@ layout: post
 category : meetups
 tagline: Automating AD Health Checks
 tags : [bootstrap 4, web desing, jekyll]
-img : meetups/2019-02-20.jpg
+img : meetups/2019-03-20.jpg
 img-mobile : 
 img2 : 
 img3 : 
