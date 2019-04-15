@@ -20,7 +20,7 @@ canonical: https://rtpsug.com
         <div class="row">
           <div class="col-md-12">
             <div class="page-header-title">
-              <h2 class="heading-title text-center">Team Members</h2>
+              <h2 class="heading-title text-center">Co-Organizers</h2>
             </div>
             <!-- Team Members 01 -->
             <div class="team-members-tow mtb-50">
@@ -37,9 +37,9 @@ canonical: https://rtpsug.com
                               <p class="content-white">{{ member.name }}</p>
                               <hr class="small-divider border-white">
                             <ul class="social-icons text-center">
-                                {% if member.twitter %}<li><a href="https://twitter.com/{{ member.twitter }}"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>{% endif %}
-                                {% if member.linkedin %}<li><a href="https://www.linkedin.com/in/{{ member.linkedin }}/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>{% endif %}
-                                {% if member.website %}<li><a href="{{ member.website }}"><i class="fa fa-cloud" aria-hidden="true"></i></a></li>{% endif %}
+                                {% if member.twitter %}<li><a href="https://twitter.com/{{ member.twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>{% endif %}
+                                {% if member.linkedin %}<li><a href="https://www.linkedin.com/in/{{ member.linkedin }}/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>{% endif %}
+                                {% if member.website %}<li><a href="{{ member.website }}" target="_blank"><i class="fa fa-cloud" aria-hidden="true"></i></a></li>{% endif %}
                             </ul>
                           </div>
                         </figcaption>
