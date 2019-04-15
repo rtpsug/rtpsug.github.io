@@ -1,6 +1,6 @@
 ---
 layout: index
-title: Team
+title: Our Team
 group: navigation
 tagline: 
 tags : [team, components]
@@ -34,12 +34,12 @@ canonical: https://rtpsug.com
                         <img src="{{ BASE_PATH }}/assets/images/team/{{ member.img }}" alt="">
                         <figcaption class="our-team">
                           <div class="details col-md-12">
-                              <p class="content-white">{{ member.name }}</p>
-                              <hr class="small-divider border-white">
+                            <p class="content-white">{{ member.slogan }}</p>
+                            <hr class="small-divider border-white">
                             <ul class="social-icons text-center">
-                                {% if member.twitter %}<li><a href="https://twitter.com/{{ member.twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>{% endif %}
-                                {% if member.linkedin %}<li><a href="https://www.linkedin.com/in/{{ member.linkedin }}/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>{% endif %}
-                                {% if member.website %}<li><a href="{{ member.website }}" target="_blank"><i class="fa fa-cloud" aria-hidden="true"></i></a></li>{% endif %}
+                                {% if member.twitter %}<li><a href="https://twitter.com/{{ member.twitter }}" target="_blank" title="@{{ member.twitter }}"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>{% endif %}
+                                {% if member.linkedin %}<li><a href="https://www.linkedin.com/in/{{ member.linkedin }}/" target="_blank" title="{{ member.linkedin }}><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>{% endif %}
+                                {% if member.website %}<li><a href="{{ member.website }}" target="_blank" title="{{ member.website }}"><i class="fa fa-cloud" aria-hidden="true"></i></a></li>{% endif %}
                             </ul>
                           </div>
                         </figcaption>
