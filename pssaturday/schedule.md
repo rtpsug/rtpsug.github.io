@@ -1,8 +1,7 @@
 ---
 layout : pssat
-group : pssaturday
-
-title : find out what's happeneing
+group : pssaturday-nav
+title : Schedule
 permalink : /pssaturday/schedule
 ---
 

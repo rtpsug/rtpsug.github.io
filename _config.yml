@@ -157,3 +157,9 @@ collections :
 collections :
   team :
     output: true
+    
+collections :
+  sponsorships :
+    output: true
+  sponsors :
+    output: true

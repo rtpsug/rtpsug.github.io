@@ -1,5 +1,6 @@
 ---
 layout: page
+group : pssaturday-nac
 title: Become a sponsor
 ---
 
