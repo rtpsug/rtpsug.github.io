@@ -7,7 +7,7 @@ highlighter: null
 markdown: kramdown
 extensions: [fenced_code_blocks]
 excerpt_separator: "<!--more-->"
-url: ""
+url: "https://rtpsug.com"
 baseurl: ""
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
@@ -47,7 +47,7 @@ twitter_username: rtpsug
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : ""
+production_url : "https://rtpsug.com"
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -76,7 +76,7 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : ""
+  BASE_PATH : "https://rtpsug.com"
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
