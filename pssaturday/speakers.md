@@ -1,8 +1,10 @@
 ---
-layout: pssat
-title: find out what's happening
-description: this is a description in the the speakers page
-permalink: /pssaturday/speakers
+layout : pssat
+title : find out what's happening
+group : pssaturday
+
+description : this is a description in the the speakers page
+permalink : /pssaturday/speakers
 ---
 
 Come and share your knowledge with the community

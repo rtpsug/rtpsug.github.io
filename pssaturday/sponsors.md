@@ -1,7 +1,8 @@
 ---
-layout: pssat
-title: Become a sponsor
-permalink: /pssaturday/sponsors
+layout : pssat
+title : Become a sponsor
+group : pssaturday
+permalink : /pssaturday/sponsors
 ---
 
 Become a Sponsor

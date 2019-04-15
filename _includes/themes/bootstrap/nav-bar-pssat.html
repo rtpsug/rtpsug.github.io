@@ -22,13 +22,19 @@
                    </button>
                   <div class="collapse navbar-collapse justify-content-left" id="navbar5">
                     <ul class="navbar-nav">
-                      {% for pssaturday in site.pssaturday %}
+                      <!--START FOR LOOP-->
+                      {% for pssat in site.pssaturday %}
                       <li class="nav-item">
-                        <a class="nav-link" href="{{ pssaturday }}">Home</a>
+                        <a class="nav-link" href="{{ pssat.name }}">Home</a>
                       </li>
                       <!-- this is a pssat event-->
                       {% endfor %}
-
+                      <!--END FOR LOOP-->
+                      <!--START JB-PAGES LOOP-->
+                      {% assign pages_list = site.categories.pssaturday %}
+                      {% assign group = 'pssaturday' %}
+                      {% include JB/pages_list %}
+                      <!--END JB-PAGES LOOP-->
                       <li class="nav-item">
                         <a class="nav-link" href="/pssaturday/aboutus">About Us</a>
                       </li>

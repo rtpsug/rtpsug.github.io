@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Become a sponsor
-permalink: /pssaturday/sponsors
 ---
 
 Become a Sponsor
