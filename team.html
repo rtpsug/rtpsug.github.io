@@ -2,65 +2,69 @@
 layout: index
 title: Our Team
 group: navigation
-tagline: 
+tagline:
 tags : [team, components]
-img : 
-img-mobile : 
+img :
+img-mobile :
 author : RTPSUG
-css: 
+css:
 js:
 keywords: components, demo
 canonical: https://rtpsug.com
 ---
 {% include JB/setup %}
-    <!-- Content Area Start -->
-    <div id="content">
-      <div class="container">
-        <!-- row start -->
-        <div class="row">
-          <div class="col-md-12">
-            <div class="page-header-title">
-              <h2 class="heading-title text-center">Co-Organizers</h2>
-            </div>
-            <!-- Team Members 01 -->
-            <div class="team-members-tow mtb-50">
-              <div class="row">
-                <!--START TEAM LOOP-->
-                {% for member in site.team %}
-                <div class="col-sm-6 col-md-4">
-                  <!-- Team Item Starts -->
-                  <div class="team-item">
-                      <figure class="team-profile">
-                        <img src="{{ BASE_PATH }}/assets/images/team/{{ member.img }}" alt="">
-                        <figcaption class="our-team">
-                          <div class="details col-md-12">
-                            <p class="content-white">{{ member.slogan }}</p>
-                            <hr class="small-divider border-white">
-                            <ul class="social-icons text-center">
-                                {% if member.twitter %}<li><a href="https://twitter.com/{{ member.twitter }}" target="_blank" title="@{{ member.twitter }}"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>{% endif %}
-                                {% if member.linkedin %}<li><a href="https://www.linkedin.com/in/{{ member.linkedin }}/" target="_blank" title="{{ member.linkedin }}"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>{% endif %}
-                                {% if member.website %}<li><a href="{{ member.website }}" target="_blank" title="{{ member.website }}"><i class="fa fa-cloud" aria-hidden="true"></i></a></li>{% endif %}
-                            </ul>
-                          </div>
-                        </figcaption>
-                      </figure>
-                      <div class="info">
-                        <h2>
-                          {{ member.name }}
-                        </h2>
-                        <p>
-                          {{ member.content }}
-                        </p>
-                      </div>
+<!-- Content Area Start -->
+<div id="content">
+  <div class="container">
+    <!-- row start -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="page-header-title">
+          <h2 class="heading-title text-center">Co-Organizers</h2>
+        </div>
+        <!-- Team Members 01 -->
+        <div class="team-members-tow mtb-50">
+          <div class="row">
+            <!--START TEAM LOOP-->
+            {% for team_member in site.team %}
+            <div class="col-sm-6 col-md-4">
+              <!-- Team Item Starts -->
+              <div class="team-item">
+                <figure class="team-profile">
+                  <img src="{{ BASE_PATH }}/assets/images/team/{{ team_member.img }}" alt="">
+                  <figcaption class="our-team">
+                    <div class="details col-md-12">
+                      <p class="content-white">{{ team_member.slogan }}</p>
+                      <hr class="small-divider border-white">
+                      <ul class="social-icons text-center">
+                        {% if team_member.twitter %}<li><a href="https://twitter.com/{{ team_member.twitter }}"
+                            target="_blank" title="@{{ team_member.twitter }}"><i class="fa fa-twitter"
+                              aria-hidden="true"></i></a></li>{% endif %}
+                        {% if team_member.linkedin %}<li><a
+                            href="https://www.linkedin.com/in/{{ team_member.linkedin }}/" target="_blank"
+                            title="{{ team_member.linkedin }}"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>{% endif %}
+                        {% if team_member.website %}<li><a href="{{ team_member.website }}" target="_blank"
+                            title="{{ team_member.website }}"><i class="fa fa-cloud" aria-hidden="true"></i></a></li>
+                        {% endif %}
+                      </ul>
                     </div>
-                    <!-- Team Item Ends -->
+                  </figcaption>
+                </figure>
+                <div class="info">
+                  <h2>
+                    {{ team_member.name }}
+                  </h2>
                 </div>
-                {% endfor %}
-                <!--END TEAM LOOP-->
+              </div>
+              <!-- Team Item Ends -->
             </div>
-            <!-- End Team Members 01 -->
+            {% endfor %}
+            <!--END TEAM LOOP-->
           </div>
+          <!-- End Team Members 01 -->
         </div>
       </div>
     </div>
-    <!-- Content Area End -->
+  </div>
+  <!-- Content Area End -->
