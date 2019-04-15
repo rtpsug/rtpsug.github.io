@@ -1,6 +1,6 @@
 ---
 name : Jonathan Moss
-img : Jonathan.jpg
+img : jonathan.jpg
 twitter : jwmoss
 website : https://jwmoss.github.io
 slogan: Pester Thief!
