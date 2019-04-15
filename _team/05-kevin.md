@@ -2,7 +2,7 @@
 name : Kevin Laux
 img : kevin.jpg
 twitter : 
-website : 
+linkedin : kevinlaux
+website : https://KevinLaux.github.io
 slogan: Webex Junkie
 ---
-
