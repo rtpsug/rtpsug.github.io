@@ -1,8 +1,8 @@
 ---
 name: Personal
 category:
-cost: 50
-detail1: Logo at the end of each session PowerPoint
+cost: 100
+detail1: Logo at the beginning of each session slide deck
 detail2: " "
 detail3: " "
 detail4: " "
