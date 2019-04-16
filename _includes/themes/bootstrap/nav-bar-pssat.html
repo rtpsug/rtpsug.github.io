@@ -9,6 +9,8 @@
           class="fa fa-facebook"></i>Facebook</a>{% endif %}
       {% if site.author.twitter %}<a href="https://twitter.com/{{ site.author.twitter }}"><i
           class="fa fa-twitter"></i>Twitter</a>{% endif %}
+      {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}"><i
+          class="fa fa-github"></i>GitHub</a>{% endif %}
       {% if site.author.youtube %}<a href="https://youtube.com/c/{{ site.author.youtube }}"><i
           class="fa fa-youtube"></i>YouTube</a>{% endif %}
       {% if site.author.linkedin %}<a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/"><i
@@ -18,54 +20,33 @@
     </span>
   </p>
 </div>
-
-<!-- navbar-default -->
+<!-- navbar-ps-saturday -->
 <nav class="navbar navbar-toggleable-sm navbar-light bg-default">
   <div class="container">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar5" aria-expanded="false"
       aria-label="Toggle navigation">
       <i class="fa fa-bars"></i>
     </button>
-    <div class="collapse navbar-collapse justify-content-left" id="navbar5">
+    <a class="navbar-brand" href="{{ BASE_PATH }}/index.html"><img src="{{ BASE_PATH }}/assets/images/logo-pssat.png" alt=""></a>
+    <div class="collapse navbar-collapse justify-content-end" id="navbar5">
       <ul class="navbar-nav">
-        <!--START FOR LOOP-->
-        {% for pssat in site.pssaturday %}
-        <li class="nav-item">
-          <a class="nav-link" href="{{ pssat.name }}">Home</a>
-        </li>
-        <!-- this is a pssat event-->
-        {% endfor %}
-        <!--END FOR LOOP-->
         <!--START JB-PAGES LOOP-->
         {% assign pages_list = site.pages %}
         {% assign group = 'pssaturday-nav' %}
         {% include JB/pages_list %}
         <!--END JB-PAGES LOOP-->
-        <!--
-        <li class="nav-item">
-          <a class="nav-link" href="/pssaturday/aboutus">About Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/pssaturday/schedule.html">Schedule</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="pssaturday/speakers.html">Speakers</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/pssaturday/Tickets.html">Tickets</a>
-        </li>
--->
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
             aria-expanded="false">Sponsors</a>
           <div class="dropdown-menu">
+            <!--START DROPDOWN LOOP-->
             {% assign dropdown_list = site.pages %}
             {% assign group = 'pssaturday-nav-dropdown' %}
             {% include JB/dropdown_list %}
+            <!--END DROPDOWN LOOP-->
           </div>
         </li>
       </ul>
     </div>
-    <a class="navbar-brand" href="index.html"><img src="{{ BASE_PATH }}/assets/images/logo.png" alt=""></a>
   </div>
 </nav>
