@@ -1,9 +1,7 @@
 ---
-layout : pssat
-group : pssaturday
-
-title : find out what's happeneing
-permalink : /pssaturday/schedule
+title : Schedule
+group : pssaturday-nav
 ---
 
-Schedule of events
+<!--  only user Front Matter  -->
+<!--  CONTENT IN _pssaturday\ -->

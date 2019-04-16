@@ -1,12 +1,7 @@
 ---
-layout : pssat
-title : find out what's happening
-group : pssaturday
-
-description : this is a description in the the speakers page
-permalink : /pssaturday/speakers
+title : Our Speakers
+group : pssaturday-nav
 ---
 
-Come and share your knowledge with the community
-
-Signup to be speaker on PaperCall.io https://www.papercall.io/rtpsug-pssaturday
+<!--  only user Front Matter  -->
+<!--  CONTENT IN _pssaturday\ -->

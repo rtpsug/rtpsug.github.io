@@ -1,0 +1,72 @@
+---
+layout: pssat
+title: Become a Sponsor
+group: pssaturday-nav-dropdown
+tagline:
+tags : [sponsorships, components]
+img :
+img-mobile :
+author : RTPSUG
+css:
+js:
+keywords: components, demo
+canonical: https://rtpsug.com
+---
+{% include JB/setup %}
+<!-- Content Area Start -->
+<div id="content">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="page-header-title">
+          <h2 class="heading-title text-center">Sponsorships</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sub-title">
+          <span>Become a Sponsor</span>
+        </div>
+      </div>
+      {% for sponsorship in site.sponsorships %}
+      <!-- Pricing Start 01 -->
+      <div class="col-md-3">
+        <div class="pricing-table">
+          <div class="table-header">
+            <h3>
+              {{ sponsorship.name }}
+            </h3>
+          </div>
+          <div class="plan">
+            <h3 class="price">
+              $ {{ sponsorship.cost }}
+            </h3>
+          </div>
+          <div class="plan-info">
+            <p>
+              {{ sponsorship.detail1 }}
+            </p>
+            <p>
+              {{ sponsorship.detail2 }}
+            </p>
+            <p>
+              {{ sponsorship.detail3 }}
+            </p>
+            <p>
+              {{ sponsorship.detail4 }}
+            </p>
+            <p>
+              {{ sponsorship.detail5 }}
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Pracing End 01 -->
+      {% endfor %}
+    </div>
+
+
+  </div>
+</div>
+<!-- Content Area End -->

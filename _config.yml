@@ -152,8 +152,10 @@ JB :
 
 collections :
   pssaturday :
-    output : true
-
-collections :
-  team :
+    output: true
+  sponsorships :
+    output: true
+  sponsors :
+    output: true
+  team:
     output: true

@@ -1,11 +1,8 @@
 ---
 layout : pssat
-group : pssaturday
-title : find out what's happeneing
-description : This is a description of the Page
-permalink : /pssaturday/tickets
+group : pssaturday-nav
+title : Tickets
 ---
 
-Buy tickets soon
-
-THe price will be $80.00
+<!--  only user Front Matter  -->
+<!--  CONTENT IN _pssaturday\ -->
