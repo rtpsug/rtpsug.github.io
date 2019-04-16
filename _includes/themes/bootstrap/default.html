@@ -14,8 +14,6 @@ lantoniotrento@gmail.com
     {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
     {% if page.canonical %}<link rel="canonical" href="{{ page.canonical }}"/>{% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-
     <!--Google Font link-->
         <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
  <!--Helium css-->
@@ -31,13 +29,11 @@ lantoniotrento@gmail.com
 
 	<!-- CSS loaded by the children page -->
         {% if page.css %}<link rel="stylesheet" type="text/css" href="{{ BASE_PATH }}/assets/css/custom/{{ page.css }}" />{% endif %}
-
     <meta property="og:title" content="{{ page.title }}">
     <meta property="og:description" content="{{ page.tagline }}">
     <meta property="og:image" content="{{ BASE_PATH }}/assets/img/big/{{ page.img }}">
     <meta property="og:url" content="{{ BASE_PATH }}">
     <meta name="twitter:card" content="summary_large_image">
-
 	<!--[if IE]>
 		<script type="text/javascript">
 			 var console = { log: function() {} };
@@ -68,15 +64,10 @@ lantoniotrento@gmail.com
   {% if site.JB.comments.disqus.short_name == true %}
   <script id="dsq-count-scr" src="//{{ site.JB.comments.disqus.short_name }}.disqus.com/count.js" async></script>
   {% endif %}
-
-
-
-
         <!-- JS includes -->
-
         <script src="{{ BASE_PATH }}/assets/js/jquery.min.js"></script>
         <script src="{{ BASE_PATH }}/assets/js/jquery.nav.js"></script>
-	<script src="{{ BASE_PATH }}/assets/js/owl.carousel.min.js"></script>
+      	<script src="{{ BASE_PATH }}/assets/js/owl.carousel.min.js"></script>
         <script src="{{ BASE_PATH }}/assets/js/form-validator.min.js"></script>	  
         <script src="{{ BASE_PATH }}/assets/js/contact-form-script.js"></script>
         <script src="{{ BASE_PATH }}/assets/js/jasny-bootstrap.min.js"></script>
@@ -87,12 +78,8 @@ lantoniotrento@gmail.com
         <script src="{{ BASE_PATH }}/assets/js/scrolling-nav.js"></script>
         <script src="{{ BASE_PATH }}/assets/js/tether.min.js"></script>
         <script src="{{ BASE_PATH }}/assets/js/bootstrap.min.js"></script>
-
 	<!-- ********************* Grads SCRIPTING ******************************-->
 	<!--Custom script loaded by children page-->
 	{% if page.js %}<script src="{{ BASE_PATH }}/assets/js/{{ page.js }}"></script>{% endif %}
-
-
-	  
   </body>
 </html>
