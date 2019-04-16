@@ -1,7 +1,7 @@
 ---
 layout : page2
 group : pssaturday-nav
-tagline: What is Research Triangle PowerShell Saturday?
+tagline: What is PS-Saturday?
 ---
 **- Saturday, September 21st, 2019**
 **- Raleigh, NC**
@@ -9,8 +9,6 @@ tagline: What is Research Triangle PowerShell Saturday?
 **- 3 Information Tracks**
 **- 15 speakers**
 
-
-## What is PS-Saturday
 
 PowerShell Saturday (aka PS-Saturday) is a full day of learning hosted by the Research Triangle PowerShell user group. This event is an opportunity for IT professionals of all skill levels to be exposed to new ideas and concepts presented by fellow members of the PowerShell community as well as in-depth learning of the core concepts of the PowerShell language.
 
