@@ -1,10 +1,8 @@
 ---
-layout: pssat
-group : pssaturday-nac
-title: find out what's happening
-description: this is a description in the the speakers page
+layout: page2
+group : pssaturday-nav
+tagline: Our Speakers
 ---
 
-Come and share your knowledge with the community
+# Coming Soon 
 
-Signup to be speaker on PaperCall.io https://www.papercall.io/rtpsug-pssaturday

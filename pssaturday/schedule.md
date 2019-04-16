@@ -1,8 +1,7 @@
 ---
-layout : pssat
-group : pssaturday-nav
 title : Schedule
-permalink : /pssaturday/schedule
+group : pssaturday-nav
 ---
 
-Schedule of events
+<!--  only user Front Matter  -->
+<!--  CONTENT IN _pssaturday\ -->

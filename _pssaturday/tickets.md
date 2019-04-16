@@ -1,10 +1,7 @@
 ---
-layout: pssat
-group : pssaturday-nac
-title: find out what's happeneing
-description: This is a description of the Page
+layout: page2
+group : pssaturday-nav
+tagline: Ticket go on sale Soon
 ---
 
-Buy tickets soon
-
-THe price will be $80.00
+# Coming Soon
