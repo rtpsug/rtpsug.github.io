@@ -1,7 +1,7 @@
 ---
 layout: post
 category : meetups
-tagline: "Pester: Why You Should -Be Using Pester"
+tagline: "Pester: - Why You Should -Be Using Pester"
 tags : [bootstrap 4, web desing, jekyll]
 img : meetups/2019-04-17.jpg
 img-mobile : 
