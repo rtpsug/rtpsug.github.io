@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog
 category : meetups
 tagline: Learn to Search like a "Boss" with PowerShell!
 tags : [bootstrap 4, web desing, jekyll]
