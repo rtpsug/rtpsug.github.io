@@ -18,13 +18,11 @@ canonical: https://fullit.github.io
 ---
 {% include JB/setup %}
 
-Learn how Pester works for testing your code
+Pester is a test framework for PowerShell. It allows you to define all kinds of test cases and report the results. Using this framework, you can build tests to automatically test every piece of code before it is released to production environments. The tests are limited mostly by your imagination!
 
 <!--more-->
 
 ## "Pester: Why You Should -Be Using Pester"
-
-Pester is a test framework for PowerShell. It allows you to define all kinds of test cases and report the results. Using this framework, you can build tests to automatically test every piece of code before it is released to production environments. The tests are limited mostly by your imagination!
 
 Come join us on April 17th at the Metlife campus at 6:30 pm in Cary to hear how this month's speaker, Jonathan Moss, cut his teeth using Pester at his company. Jonathan will be walking us through why you should be using Pester and how to get started doing so.
 
