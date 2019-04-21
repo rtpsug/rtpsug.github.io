@@ -23,8 +23,27 @@
       <i class="fa fa-bars"></i>
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbar1">
-      <ul class="navbar-nav"> {% assign pages_list = site.pages %} {% assign group = 'navigation' %}
-        {% include JB/pages_list %} </ul>
+          <ul class="navbar-nav">
+            {% assign pages_list = site.pages %}
+            {% assign group = 'navigation' %}
+            {% include JB/pages_list %}
+          </ul>
     </div>
   </div>
 </nav>
+<div class="container">
+  <div class="pssat-menu">
+    <p>
+        <span class="left">
+            <a href="{{ BASE_PATH }}/pssaturday">PowerShell Saturday:</a>
+        </span>
+        <span class="right">
+            <!--START JB-PAGES LOOP-->
+            {% assign link_list = site.pages %}
+            {% assign group = 'pssaturday-nav' %}
+            {% include JB/link_list %}
+            <!--END JB-PAGES LOOP-->
+        </span>
+    </p>
+  </div>
+</div>
