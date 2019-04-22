@@ -1,7 +1,8 @@
 ---
 layout: page2
 group : pssaturday-nav
-tagline: Our Speakers
+title: Our Speakers
+tagline: Speaker Info
 ---
 
 ### When will the line-up of topics and speakers be announced
