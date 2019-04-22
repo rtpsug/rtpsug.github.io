@@ -58,13 +58,11 @@ p {
 }
 
 ul, li {
-    list-style: none;
-    padding: 0
+    list-style: default;
 }
 
 ul, ol {
-    list-style: none;
-    padding: 0
+    list-style: default;
 }
 
 .orderlist li {
@@ -77,7 +75,7 @@ ul, ol {
 }
 
 .list-featured {
-    list-style: none;
+    list-style: circle;
     padding: 0
 }
 
