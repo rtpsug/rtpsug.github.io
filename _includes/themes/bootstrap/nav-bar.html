@@ -3,6 +3,7 @@
     <span class="left">
       <a href="/"><i class="fa fa-map-marker"></i>Research Triangle Powershell User Group</a>
       <a href="/contact"><i class="fa fa-envelope"></i>rtpsug@gmail.com</a>
+      <a href="/pssaturday" style="navbar-1"><b>PowerShell Saturday</b></a>
     </span>
     <span class="right hidden-sm-down">
       {% if site.author.facebook %} <a href="https://www.facebook.com/{{ site.author.facebook }}/"> <i class="fa fa-facebook"></i>Facebook</a>{% endif %}
@@ -30,20 +31,4 @@
           </ul>
     </div>
   </div>
-</nav>
-<div class="container">
-  <div class="pssat-menu">
-    <p>
-        <span class="left">
-            <a href="{{ BASE_PATH }}/pssaturday">PowerShell Saturday:</a>
-        </span>
-        <span class="right">
-            <!--START JB-PAGES LOOP-->
-            {% assign link_list = site.pages %}
-            {% assign group = 'pssaturday-nav' %}
-            {% include JB/link_list %}
-            <!--END JB-PAGES LOOP-->
-        </span>
-    </p>
-  </div>
-</div>
+  </nav>
