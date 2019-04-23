@@ -6,7 +6,11 @@ tagline: Speaker Info
 ---
 
 ### Can I speak at your conference?
-Absolutely! We would love for you to speak. In fact, we're accepting speaker submissions through June 2nd. The application process can be found here: [Submit your topic at Papercall.io](https://www.papercall.io/rtpsug-pssaturday)
+Absolutely! We would love for you to speak. In fact, we're accepting speaker submissions through June 2nd.
+
+The application process can be found here: **[Submit your topic at Papercall.io](https://www.papercall.io/rtpsug-pssaturday)**
+
+Call for speaker submissions ends on June 2nd, 2019 7:06pm EDT (Local)
 
 ### So what's it take to be a speaker at your conference?
 
