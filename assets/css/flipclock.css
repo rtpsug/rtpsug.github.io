@@ -1,3 +1,5 @@
+.body .clock {margin: 0 auto;display: block;width: 322px;}
+
 /* Get the bourbon mixin from http://bourbon.io */
 /* Reset */
 .flip-clock-wrapper * {
@@ -417,3 +419,27 @@
 
   100% {
     opacity: 0; } }
+
+@media only screen and (max-width: 767px) {
+
+  .clock {
+    visibility: hidden
+  }
+	
+	.flip-clock-wrapper ul { height: 50px; line-height: 50px; }
+	.flip-clock-wrapper ul li a div.up:after { top: 24px; }
+	.flip-clock-divider { height: 50px; }
+	.flip-clock-dot { height: 6px; width: 6px; left: 7px;}
+	.flip-clock-dot.top { top: 17px; }
+	.flip-clock-dot.bottom { bottom: 8px; }
+		
+	
+	 .flip-clock-divider .flip-clock-label { font-size: 16px; }
+	 .flip-clock-divider.hours .flip-clock-label { right: -66px; }
+	 .flip-clock-divider.minutes .flip-clock-label { right: -78px; }
+	 .flip-clock-divider.seconds .flip-clock-label { right: -78px; }
+	
+	.flip-clock-wrapper ul { width: 37px; }
+	.flip-clock-wrapper ul li a div div.inn { font-size: 30px; }
+
+}
