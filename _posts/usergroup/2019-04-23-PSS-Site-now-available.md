@@ -21,7 +21,7 @@ canonical:
 {:txt_align_center: style="text-align:center"}
 
 
-#### We now have the PowerShell Saturday section of our website setup. Go to the site to see information about time, date and location or sign up to become a speaker!
+#### We now have the PowerShell Saturday section of our website set up. Go to the site to see information about time, date and location or sign up to become a speaker!
 
 <!--more-->
 

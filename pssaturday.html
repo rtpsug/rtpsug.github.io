@@ -52,6 +52,7 @@ canonical: https://rtpsug.com
 
 <script type="text/javascript">
 			var clock;
+      var endDate = '2019-09-21T13:00:00.000Z'  // 09-21-2019 09:00 EDT (EDT = Zulu + 4)
 
 			$(document).ready(function() {
 
@@ -59,7 +60,7 @@ canonical: https://rtpsug.com
 				var currentDate = new Date();
 
 				// Set some date in the future. In this case, it's always Jan 1
-				var futureDate  = new Date("2019-09-21 09:00:00");
+        var futureDate  = new Date(endDate);
 
 				// Calculate the difference in seconds between the future and current date
 				var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
