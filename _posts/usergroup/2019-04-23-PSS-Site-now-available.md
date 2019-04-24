@@ -25,5 +25,5 @@ canonical:
 
 <!--more-->
 
-## [Research Tringle PowerShell Saturday]({{BASE_URL}}/pssaturday)
+## [Research Triangle PowerShell Saturday]({{BASE_URL}}/pssaturday)
 {: txt_align_center}
