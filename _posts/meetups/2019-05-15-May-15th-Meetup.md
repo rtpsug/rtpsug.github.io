@@ -3,7 +3,7 @@ layout: post
 category : meetups
 tagline: "Chocolatey: From zero to software deployment hero in 60 minutes!"
 tags : [bootstrap 4, web desing, jekyll]
-img : meetups/2019-05-01.jpg
+img : meetups/2019-05-15.jpg
 img-mobile : 
 img2 : 
 img3 : 
