@@ -1,5 +1,5 @@
 ---
-name: platinum
+name: Platinum
 category:
 cost: 1250
 detail1: Your Logo on website and promotional materials*

@@ -1,7 +1,8 @@
 ---
 layout: page2
 group : pssaturday-nav
-tagline: Ticket go on sale Soon
+title: Tickets
+tagline: Ticket Sales
 ---
 
-# Coming Soon
+### Coming Soon::

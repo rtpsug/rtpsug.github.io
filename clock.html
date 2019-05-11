@@ -1,0 +1,42 @@
+---
+layout: index
+title: PS Saturday
+group: 
+tagline: Join us Sept. 21 2019
+tags : [components]
+img : 
+img-mobile : 
+author : RTPSUG
+css: 
+js:
+keywords: components, demo
+canonical: https://rtpsug.com
+---
+
+<div class="message">TESTINFG</div>
+<div class="clock" style="margin:2em;"></div>
+<div class="message">TESTINFG</div>
+
+
+<script type="text/javascript">
+    var clock;
+    
+    $(document).ready(function() {
+        var clock;
+
+        clock = $('.clock').FlipClock({
+            clockFace: 'DailyCounter',
+            autoStart: false,
+            callbacks: {
+                stop: function() {
+                    $('.message').html('The clock has stopped!')
+                }
+            }
+        });
+                
+        clock.setTime(220880);
+        clock.setCountdown(true);
+        clock.start();
+
+    });
+</script>

@@ -1,12 +1,12 @@
 {% comment %}<!--
-The dropdown_list include is a listing helper.
+The content_list include is a listing helper.
 Usage:
-  1) assign the 'dropdown_list' variable to a valid array of pages or posts.
-  2) include JB/dropdown_list
+  1) assign the 'content_list' variable to a valid array of pages or posts.
+  2) include JB/content_list
   example:
     <ul>
-  	  {% assign dropdown_list = site.pages %}  
-  	  {% include JB/dropdown_list %}
+  	  {% assign content_list = site.pages %}  
+  	  {% include JB/content_list %}
   	</ul>
   	
   Grouping: (optional): 
@@ -20,18 +20,21 @@ Usage:
   This helper can be seen in use at: ../_layouts/default.html
 -->{% endcomment %}
 
-{% if site.JB.dropdown_list.provider == "custom" %}
-  {% include custom/dropdown_list %}
+{% if site.JB.content_list.provider == "custom" %}
+  {% include custom/content_list %}
 {% else %}
-  {% for node in dropdown_list %}
+  {% for node in content_list %}
     {% if node.title != null %}
       {% if group == null or group == node.group %}
       	{% if page.url != node.url %}
-	      	<a class="dropdown-item" href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a>
+				  #### {{node.title}}
+					<!-- {{ node.url }}-->
+					{{ node.content }}
+					{{ include_relative Node.url }}
       	{% endif %}
       {% endif %}
     {% endif %}
   {% endfor %}
 {% endif %}
-{% assign dropdown_list = nil %}
+{% assign content_list = nil %}
 {% assign group = nil %}
