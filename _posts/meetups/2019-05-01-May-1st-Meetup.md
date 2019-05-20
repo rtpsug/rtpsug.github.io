@@ -2,7 +2,7 @@
 layout: post
 category : meetups
 tagline: "PSKoans: Learn PowerShell concepts using Pester!"
-tags : [bootstrap 4, web desing, jekyll]
+tags : [bootstrap 4, web design, jekyll]
 img : meetups/2019-05-01.jpg
 img-mobile : 
 img2 : 
@@ -13,7 +13,7 @@ title3 :
 css: 
 js: 
 bgcolor: ff5a71
-keywords: helium, web desing, css, html, bootstrap 4
+keywords: helium, web design, css, html, bootstrap 4
 canonical: https://fullit.github.io
 ---
 {% include JB/setup %}
