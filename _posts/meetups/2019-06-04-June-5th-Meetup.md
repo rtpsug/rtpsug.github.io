@@ -29,6 +29,7 @@ We invite to join us and see how with the right set of tools, tasks that seem da
 
 ### Resources:
 - PowerShell Pro Tools: [https://poshtools.com/powershell-pro-tools/](https://poshtools.com/powershell-pro-tools/)
+- Tim Warner [@TechTrainerTim](https://twitter.com/techtrainertim)
 - Adam Driscoll: [@adamdriscoll](https://twitter.com/adamdriscoll)
 
 #### Presentation:
