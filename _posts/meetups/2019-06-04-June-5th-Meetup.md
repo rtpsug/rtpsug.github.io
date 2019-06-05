@@ -1,7 +1,7 @@
 ---
 layout: post
 category : meetups
-tagline: "PowerShell Pro Tools: Take Your PowerShell to New PLaces"
+tagline: "PowerShell Pro Tools: Take Your PowerShell to New Places"
 tags : [bootstrap 4, web design, jekyll]
 img : meetups/2019-06-05.jpg
 img-mobile : 
