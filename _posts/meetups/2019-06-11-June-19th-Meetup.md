@@ -37,4 +37,4 @@ Portions of this meeting will not be recorded, at the request of speakers, and t
 
 REMINDER FOR LOCAL ATTENDEES: You must bring identification with you!!! MetLife security will not allow anyone to enter the facility without ID.
 
-This event will be recorded and posted on YouTube afterward. By attending this meeting, you allow us to any recordings of yourself for later use and to be posted in public forums such as YouTune and Reddit.
+This event will be recorded and posted on YouTube. By attending this meeting, you agree to being recorded and allow the use of recordings and images taken at meetings on RTPSUG.com, youtube.com, meetup.com as well as other places on the internet and offline. 
