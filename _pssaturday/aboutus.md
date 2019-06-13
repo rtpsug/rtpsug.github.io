@@ -13,7 +13,7 @@ tagline: What is PS-Saturday?
 {: txt_align_center }
 **3 Information Tracks**
 {: txt_align_center }
-**15 speakers**
+**18 SPEAKERS**
 {: txt_align_center }
 
 PowerShell Saturday (aka PS-Saturday) is a full day of learning hosted by the Research Triangle PowerShell user group. In addition to in-depth learning, this event is an opportunity for IT professionals of all skill levels to be exposed to new ideas presented by members of the PowerShell community. 
