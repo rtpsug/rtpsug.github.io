@@ -8,4 +8,4 @@ tagline: Schedule of Events
 
 - PowerShell 101 *(Intro and Fundamentals)*
 - PowerShell Tools *(Scripting tools and DevOps)*
-- Manage the Cloud with PowerShell *(Azure and AWS)*
+- DevOps & Security *(DevOps, CI\CD Pipelines, Security Practices)*
