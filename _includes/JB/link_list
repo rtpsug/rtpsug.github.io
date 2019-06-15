@@ -1,12 +1,12 @@
-{% comment %}<!--
+{%- comment -%}<!--
 The link_list include is a listing helper.
 Usage:
   1) assign the 'link_list' variable to a valid array of pages or posts.
   2) include JB/link_list
   example:
     <ul>
-  	  {% assign link_list = site.pages %}  
-  	  {% include JB/link_list %}
+  	  {%- assign link_list = site.pages -%}  
+  	  {%- include JB/link_list -%}
   	</ul>
   	
   Grouping: (optional): 
@@ -18,22 +18,22 @@ Usage:
   	i.e. site.tags.cool_tag (this returns an array of posts tagged: cool_tag)
   	
   This helper can be seen in use at: ../_layouts/default.html
--->{% endcomment %}
+-->{%- endcomment -%}
 
-{% if site.JB.link_list.provider == "custom" %}
-  {% include custom/link_list %}
-{% else %}
-  {% for node in link_list %}
-    {% if node.title != null %}
-      {% if group == null or group == node.group %}
-      	{% if page.url == node.url %}
+{%- if site.JB.link_list.provider == "custom" -%}
+  {%- include custom/link_list -%}
+{%- else -%}
+  {%- for node in link_list -%}
+    {%- if node.title != null -%}
+      {%- if group == null or group == node.group -%}
+      	{%- if page.url == node.url -%}
       		<a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a>
-      	{% else %}
+      	{%- else -%}
  		     	<a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a>
-      	{% endif %}
-      {% endif %}
-    {% endif %}
-  {% endfor %}
-{% endif %}
-{% assign link_list = nil %}
-{% assign group = nil %}
+      	{%- endif -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
+{%- assign link_list = nil -%}
+{%- assign group = nil -%}
