@@ -301,6 +301,18 @@ strong{
 .header-style-3 .hero-content-v2 p{
     color:#fff
 }
+.header-style-99{
+    background:url(/assets/images/art-big-data-blur-373543.jpg) no-repeat left center;
+    background-size:cover;
+    opacity: 0.6;
+    padding-top:80px
+}
+.header-style-99 .hero-content-v2 h3{
+    color:#fff
+}
+.header-style-99 .hero-content-v2 p{
+    color:#fff
+}
 .section{
     padding:30px 0
 }
