@@ -1,16 +1,8 @@
 ---
 layout: pssat
-title: Our Speakers
-group: pssaturday
-tagline:
-tags : [team, components]
-img :
-img-mobile :
+title : Our Speakers
+group : pssaturday-nav
 author : RTPSUG
-css:
-js:
-keywords: components, demo
-canonical: https://rtpsug.com
 ---
 <!-- Content Area Start -->
 <div id="content">
@@ -23,12 +15,12 @@ canonical: https://rtpsug.com
             </div>
           <div class="row">
             <!--START speaker LOOP-->
-            {% for speaker in site.pssat-speaker %}
+            {% for speaker in site.speakers %}
             <div class="col-sm-6 col-md-4">
               <!-- speaker Item Starts -->
               <div class="speaker-item">
                 <figure class="team-profile">
-                  <img style="border-radius=50%" src="{{ BASE_PATH }}/assets/images/pssat-speaker/{{ speaker.img }}" alt="">
+                  <img src="{{ BASE_PATH }}/assets/images/pssat-speaker/{{ speaker.img }}" alt="">
                   <figcaption class="our-team">
                     <div class="details col-md-12">
                       <p class="content-white">{{ speaker.talk-title }}</p>
@@ -59,7 +51,7 @@ canonical: https://rtpsug.com
             {% endfor %}
             <!--END speaker LOOP-->
           </div>
-          <!-- End speaker Members 01 -->
+          <!-- End speaker  01 -->
         </div>
       </div>
     </div>

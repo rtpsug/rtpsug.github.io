@@ -154,10 +154,10 @@ collections :
   pssaturday :
     output: true
   sponsorships :
-    output: true
+    output: false
   sponsors :
-    output: true
+    output: false
   team:
-    output: true
-  pssat-speaker :
+    output: false
+  speakers :
     output: true

@@ -1879,6 +1879,9 @@ nav#menu span.fa.fa-bars:hover{
 .pricing-tables .pricing-table-block .highlight-plan .plan-name h3{
     color:#fff
 }
+.pricing-tables .pricing-table-block .highlight-plan .plan-name h6{
+    color:#fff
+}
 .pricing-tables .pricing-table-block .highlight-plan .plan-signup{
     padding:30px 0;
     background:#EB586F
@@ -1904,6 +1907,12 @@ nav#menu span.fa.fa-bars:hover{
 .pricing-table-block .plan-name h3{
     font-size:22px;
     line-height:24px;
+    margin:0;
+    color:#fff
+}
+.pricing-table-block .plan-name h6{
+    font-size:11px;
+    line-height:12px;
     margin:0;
     color:#fff
 }
@@ -3269,16 +3278,19 @@ figure{
     color:#fff
 }
 .table-bordered.table-2>thead>tr>th{
+    width: 100%;
     background:#232833;
     font-weight:700;
     color:#EB586F
 }
 .table-bordered.table-3>thead>tr>th{
+    width: 100%;
     background:#EB586F;
     font-weight:700;
     color:#fff
 }
 .table-bordered>thead>tr>th{
+    width:100%;
     text-align:center;
     background:#373d4a;
     font-size:16px;
