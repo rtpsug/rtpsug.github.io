@@ -1,15 +1,15 @@
 ---
-name : David Stein
-img : david_stein.jpg
-twitter : skatterbrainzz
+name : Mark Hutchenson
+img : none.jpg
+twitter : 
 website : 
 linkedin : 
 bio : 
-talk-title: Don't Reinvent Another Wheel if You Don't Have To
+talk-title: Filtering Files at Scale
 abstract:
-    The focus of this session will be on leveraging some well-known, and not-so well known, PowerShell modules to save time and mitigate risk when it comes to solving a scripting challenge.
-talk: PowerShell-Tools
-index: 4
+    Searching for files in large datasets can be a real drag... it's like trying to find a needle in a haystack! How do you do that quickly? Let's dive into different methods available for searching for files at scale. We'll discuss pros and cons and how to improve results with simple tweaks to boost performance
+talk: PowerShell-101
+index: 2
 ---
 
 **Overview**
