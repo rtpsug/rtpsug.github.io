@@ -1,6 +1,6 @@
 ---
 name : Jason Walker
-img : none.jpg
+img : jason_walker.jpg
 twitter : AutomationJason
 website : 
 linkedin : 
