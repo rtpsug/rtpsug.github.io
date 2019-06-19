@@ -1,10 +1,10 @@
 <div class="top-menu">
   <p>
     <span class="left">
-        <a href="/"><i class="fa fa-map-marker"></i>Research Triangle Powershell User Group</a>
-        <a href="mailto:rtpsug@gmail.com"><i class="fa fa-envelope"></i>rtpsug@gmail.com</a>
-        <a href="/pssaturday" style="navbar-1"><b>PowerShell Saturday - Sept. 21, 2019</b></a>
-      </span>
+      <a href="/"><i class="fa fa-map-marker"></i>Research Triangle Powershell User Group</a>
+      <a href="mailto:rtpsug@gmail.com"><i class="fa fa-envelope"></i>rtpsug@gmail.com</a>
+      <a href="/pssaturday" style="navbar-1"><b>PowerShell Saturday - Sept. 21, 2019</b></a>
+    </span>
     <span class="right hidden-sm-down">
       {% if site.author.facebook %}<a href="https://www.facebook.com/{{ site.author.facebook }}/"><i
           class="fa fa-facebook"></i>Facebook</a>{% endif %}
@@ -24,8 +24,9 @@
 <!-- navbar-ps-saturday -->
 <nav class="navbar navbar-toggleable-sm navbar-light bg-default">
   <div class="container">
-      <a class="navbar-brand" href="{{ BASE_PATH }}/pssaturday"><img src="{{ BASE_PATH }}/assets/images/RTP_Saturday.png" alt=""></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar5" aria-expanded="false"
+    <a class="navbar-brand" href="{{ BASE_PATH }}/pssaturday"><img src="{{ BASE_PATH }}/assets/images/RTP_Saturday.png"
+        alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar5" aria-expanded="false"
       aria-label="Toggle navigation">
       <i class="fa fa-bars"></i>
     </button>
@@ -37,6 +38,17 @@
         {% include JB/pages_list %}
         <!--END JB-PAGES LOOP-->
         <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">Conf Info</a>
+            <div class="dropdown-menu">
+              <!--START DROPDOWN LOOP-->
+              {% assign dropdown_list = site.pages %}
+              {% assign group = 'pssaturday-drop-nav' %}
+              {% include JB/dropdown_list %}
+              <!--END DROPDOWN LOOP-->
+            </div>
+          </li>
+        <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
             aria-expanded="false">RTPSUG links</a>
           <div class="dropdown-menu">
@@ -46,6 +58,11 @@
             {% include JB/dropdown_list %}
             <!--END DROPDOWN LOOP-->
           </div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="/pssaturday/tickets">
+            <strong style="color: red">BUY TICKET</strong>
+          </a>
         </li>
       </ul>
     </div>
