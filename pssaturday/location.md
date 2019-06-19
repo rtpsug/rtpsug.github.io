@@ -2,7 +2,7 @@
 layout: pssat
 title: Location
 tagline: PowerSHell Saturday Location
-group: pssaturday-nav
+group: pssaturday-drop-nav
 tags : [maps, components]
 author : RTPSUG
 js: maps.js
