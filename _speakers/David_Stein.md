@@ -1,6 +1,6 @@
 ---
 name : David Stein
-img : david_stein.jpg
+img : none.jpg
 twitter : skatterbrainzz
 website : 
 linkedin : 
