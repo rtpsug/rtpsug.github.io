@@ -1,6 +1,6 @@
 ---
 name : Mark Hutchenson
-img : none.jpg
+img : mark_hutchinson.jpg
 twitter : 
 website : 
 linkedin : 

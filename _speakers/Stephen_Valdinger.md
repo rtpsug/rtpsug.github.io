@@ -1,6 +1,6 @@
 ---
 name : Stephen Valdinger
-img : none.png
+img : stephen_valdinger.jpg
 twitter : steviecoaster
 website : https://github.com/steviecoaster
 linkedin : 

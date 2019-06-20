@@ -1,6 +1,6 @@
 ---
 name : Jon Fox
-img : none.jpg
+img : jon_fox.jpg
 twitter : JofoMsft
 website : https://www.brycemcdonald.net
 linkedin : 
