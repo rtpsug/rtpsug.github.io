@@ -22,7 +22,7 @@ tagline: Ticket Sales
     </li>
     <br>
     <li style="color: white;font-size: 16px">
-        We also offer a <u>two day pass</u> to the PowerShell Saturday & the Cybersecurity deep dive on Sunday.
+        We also offer a <u>two day pass</u> to the PowerShell Saturday and the Cybersecurity deep dive on Sunday.
         <br>The two-day pass is <strong>$125.00</strong>.
         <br><i>Lunch and snacks are included for both days.</i></li>
     </ul>   
