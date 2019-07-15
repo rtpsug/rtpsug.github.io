@@ -60,7 +60,7 @@ For the past year, we have been hosting in-depth sessions featuring one person t
 
 We'll be spotlighting up to 10 different community members who will be graciously sharing small snippets of code they have written to solve problems in their everyday work environments. Each speaker will be given up to 10 minutes to quickly explain what they built, how it works and why they built it. The magic of this meeting will be that everyone should come away with lots of ideas that they can possibly use in their own environments and we'll get to see many different styles of presenters. The short time frame forces people to stay on point and speak pretty casually.
 
-We're still accepting people who would like to to talk at this meeting, if you are interested please get in touch with [Mike Kanakos](mkanakos@gmail.com) or Phil Bossman. As a reminder,  this is about sharing code and speakers should talk casually about their snippets. No slides are needed and speakers don't need to have a formal presentation. All you need to do is explain what you did and show it off with a simple example. ANYONE CAN DO THIS and this a great way to get used to talking in front of a larger group of people!
+We're still accepting people who would like to to talk at this meeting, if you are interested please get in touch with [Mike Kanakos](mailto:mkanakos@gmail.com) or Phil Bossman. As a reminder,  this is about sharing code and speakers should talk casually about their snippets. No slides are needed and speakers don't need to have a formal presentation. All you need to do is explain what you did and show it off with a simple example. ANYONE CAN DO THIS and this a great way to get used to talking in front of a larger group of people!
 
 ## RTPSUG is hosting a PowerShell Saturday!
 
