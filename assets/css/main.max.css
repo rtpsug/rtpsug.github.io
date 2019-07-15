@@ -1412,6 +1412,105 @@ nav#menu span.fa.fa-bars:hover{
 .team-item .social a:hover{
     background:transparent
 }
+.speaker-item figure{
+    position:relative;
+    overflow:hidden;
+    width:100%;
+    margin:0
+}
+.speaker-item figure img{
+    width:100%;
+    height:auto;
+    border-radius:50%
+}
+.speaker-item figure figcaption{
+    height:100%;
+    position:absolute;
+    top:0;
+    background:rgba(0,0,0,0.85);
+    border-radius:50%;
+    opacity:0;
+    width:100%;
+    transition:all 0.3s ease-in-out 0s;
+    -moz-transition:all 0.3s ease-in-out 0s;
+    -webkit-transition:all 0.3s ease-in-out 0s;
+    -o-transition:all 0.3s ease-in-out 0s
+}
+.speaker-item figure figcaption .details{
+    position:absolute;
+    top:30%
+}
+.speaker-item figure figcaption .content-white{
+    font-size:13px;
+    text-align:center;
+    color:#FFF;
+    margin:0 auto;
+    line-height:18px;
+    width:65%;
+    -webkit-transform:translateY(-50px);
+    transform:translateY(-50px);
+    -webkit-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    transition:all 0.5s ease
+}
+.speaker-item figure figcaption .small-divider{
+    margin:12px auto 6px;
+    width:0px;
+    background:#fff;
+    height:1px;
+    -webkit-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    transition:all 0.5s ease
+}
+.speaker-item figure:hover figcaption{
+    opacity:1
+}
+.speaker-item figure:hover .small-divider{
+    width:62px;
+    background:#fff
+}
+.speaker-item figure:hover figcaption .content-white{
+    -webkit-transform:translateY(0px);
+    transform:translateY(0px)
+}
+.speaker-item figure:hover .social a{
+    -webkit-transform:translateY(0px);
+    transform:translateY(0px)
+}
+.speaker-item .social{
+    text-align:center;
+    margin-top:15px
+}
+.speaker-item .social .facebook,.speaker-item .social .twitter,.speaker-item .social .google-plus{
+    font-size:24px;
+    line-height:normal;
+    outline:none;
+    border-radius:50%;
+    color:#fff;
+    width:42px;
+    height:42px;
+    line-height:42px;
+    text-align:center;
+    display:inline-block;
+    -webkit-transform:translateY(50px);
+    transform:translateY(50px);
+    margin-right:5px
+}
+.speaker-item .social .facebook{
+    -webkit-transition:all 400ms ease;
+    transition:all 400ms ease
+}
+.speaker-item .social .twitter{
+    -webkit-transition:all 500ms ease;
+    transition:all 500ms ease
+}
+.speaker-item .social .google-plus{
+    -webkit-transition:all 600ms ease;
+    transition:all 600ms ease
+}
+.speaker-item .social a:hover{
+    background:transparent
+}
 .social .fa-facebook:hover{
     color:#3b5998
 }
@@ -1780,6 +1879,9 @@ nav#menu span.fa.fa-bars:hover{
 .pricing-tables .pricing-table-block .highlight-plan .plan-name h3{
     color:#fff
 }
+.pricing-tables .pricing-table-block .highlight-plan .plan-name h6{
+    color:#fff
+}
 .pricing-tables .pricing-table-block .highlight-plan .plan-signup{
     padding:30px 0;
     background:#EB586F
@@ -1805,6 +1907,12 @@ nav#menu span.fa.fa-bars:hover{
 .pricing-table-block .plan-name h3{
     font-size:22px;
     line-height:24px;
+    margin:0;
+    color:#fff
+}
+.pricing-table-block .plan-name h6{
+    font-size:11px;
+    line-height:12px;
     margin:0;
     color:#fff
 }
@@ -3170,16 +3278,19 @@ figure{
     color:#fff
 }
 .table-bordered.table-2>thead>tr>th{
+    width: 100%;
     background:#232833;
     font-weight:700;
     color:#EB586F
 }
 .table-bordered.table-3>thead>tr>th{
+    width: 100%;
     background:#EB586F;
     font-weight:700;
     color:#fff
 }
 .table-bordered>thead>tr>th{
+    width:100%;
     text-align:center;
     background:#373d4a;
     font-size:16px;

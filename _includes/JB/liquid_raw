@@ -1,4 +1,4 @@
-{% comment%}<!--
+{%- comment-%}<!--
 The liquid_raw helper is a way to display raw liquid code, as opposed to parsing it.
 Normally you'd use Liquid's built in 'raw' tag. 
 The problem is GitHub Jekyll does not support the current Liquid release.
@@ -14,19 +14,19 @@ Usage:
   2) Pass the text variable to include JB/liquid_raw
 
   example:
-  {% capture text %}|.% for tag in tags_list %.|
+  {%- capture text -%}|.% for tag in tags_list %.|
     <li><a href="|.{ site.var.tags_path }.||.{ tag[0] }.|-ref">|.{ tag[0] }.| <span>|.{tag[1].size}.|</span></a></li>
   |.% endfor %.|
 
-  |.% assign tags_list = null %.|{% endcapture %}    
-  {% include JB/liquid_raw %}
+  |.% assign tags_list = null %.|{%- endcapture -%}    
+  {%- include JB/liquid_raw -%}
   
   As seen here, you must use "|." and ".|" as opening and closing brackets.
--->{% endcomment%}
+-->{%- endcomment-%}
 
-{% if site.JB.liquid_raw.provider == "custom" %}
-  {% include custom/liquid_raw %}
-{% else %}
+{%- if site.JB.liquid_raw.provider == "custom" -%}
+  {%- include custom/liquid_raw -%}
+{%- else -%}
   <pre><code>{{text | replace:"|.", "&#123;" | replace:".|", "&#125;" | replace:">", "&gt;" | replace:"<", "&lt;" }}</code></pre>
-{% endif %}
-{% assign text = nil %}
+{%- endif -%}
+{%- assign text = nil -%}

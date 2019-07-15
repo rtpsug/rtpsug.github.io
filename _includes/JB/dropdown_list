@@ -1,12 +1,12 @@
-{% comment %}<!--
+{%- comment -%}<!--
 The dropdown_list include is a listing helper.
 Usage:
   1) assign the 'dropdown_list' variable to a valid array of pages or posts.
   2) include JB/dropdown_list
   example:
     <ul>
-  	  {% assign dropdown_list = site.pages %}  
-  	  {% include JB/dropdown_list %}
+  	  {%- assign dropdown_list = site.pages -%}  
+  	  {%- include JB/dropdown_list -%}
   	</ul>
   	
   Grouping: (optional): 
@@ -18,20 +18,20 @@ Usage:
   	i.e. site.tags.cool_tag (this returns an array of posts tagged: cool_tag)
   	
   This helper can be seen in use at: ../_layouts/default.html
--->{% endcomment %}
+-->{%- endcomment -%}
 
-{% if site.JB.dropdown_list.provider == "custom" %}
-  {% include custom/dropdown_list %}
-{% else %}
-  {% for node in dropdown_list %}
-    {% if node.title != null %}
-      {% if group == null or group == node.group %}
-      	{% if page.url != node.url %}
+{%- if site.JB.dropdown_list.provider == "custom" -%}
+  {%- include custom/dropdown_list -%}
+{%- else -%}
+  {%- for node in dropdown_list -%}
+    {%- if node.title != null -%}
+      {%- if group == null or group == node.group -%}
+      	{%- if page.url != node.url -%}
 	      	<a class="dropdown-item" href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a>
-      	{% endif %}
-      {% endif %}
-    {% endif %}
-  {% endfor %}
-{% endif %}
-{% assign dropdown_list = nil %}
-{% assign group = nil %}
+      	{%- endif -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
+{%- assign dropdown_list = nil -%}
+{%- assign group = nil -%}

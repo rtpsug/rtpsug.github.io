@@ -5,13 +5,6 @@ title: Our Speakers
 tagline: Speaker Info
 ---
 
-### Can I speak at your conference?
-Absolutely! We would love for you to speak. In fact, we're accepting speaker submissions through June 2nd.
-
-The application process can be found here: **[Submit your topic at Papercall.io](https://www.papercall.io/rtpsug-pssaturday)**
-
-Call for speaker submissions ends on June 2nd, 2019 7:06pm EDT (Local)
-
 ### So what's it take to be a speaker at your conference?
 
 Are you excited about PowerShell and want to share your knowledge with your peers? Great! You're a qualified speaker!
@@ -46,4 +39,4 @@ We started accepting speakers' submissions in mid-April and we'll close the subm
 
  Our goal is to provide unique and informative sessions that not only educate but engage our attendees. The Raleigh Triangle PowerShell group has always had a stellar lineup of local and national speakers and we expect the same for our one day event.
 
-Our group is known for delivering great content as well as being super friendly and welcoming to all members and all skill levels. We are looking to reproduce the small community feel of our meetings in the full day setting of this conference. Our speakers love us because we put a lot of effort into helping speakers do the best they can to be successful.
+ Our group is known for delivering great content as well as being super friendly and welcoming to all members and all skill levels. We are looking to reproduce the small community feel of our meetings in the full day setting of this conference. Our speakers love us because we put a lot of effort into helping speakers do the best they can to be successful.

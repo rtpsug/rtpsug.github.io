@@ -1,6 +1,6 @@
 ---
 layout : pssat
-group : pssaturday-nav
+group : pssaturday
 title : Tickets
 ---
 <!--  only user Front Matter  -->

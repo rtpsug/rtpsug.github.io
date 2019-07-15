@@ -154,8 +154,10 @@ collections :
   pssaturday :
     output: true
   sponsorships :
-    output: true
+    output: false
   sponsors :
-    output: true
+    output: false
   team:
+    output: false
+  speakers :
     output: true
