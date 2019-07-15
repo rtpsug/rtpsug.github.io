@@ -1,6 +1,6 @@
 ---
 layout: post
-category : meetups
+category : usergroup
 tagline: "Monthly Roundup for May!"
 tags : [bootstrap 4, web desing, jekyll]
 img : meetups/2019-05-11-newsprint.jpg
