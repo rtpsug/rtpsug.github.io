@@ -15,7 +15,7 @@ All topics should be geared towards one of the three main topic areas we are fol
 
 - PowerShell 101 (Intro and Fundamentals)
 - PowerShell Tools (Scripting tools and DevOps)
-- Manage the Cloud with PowerShell (Azure and AWS)
+- DevOps & Security (DevOps, CI\CD and Security Practices)
 
 Follow these guidelines for choosing your topic::
 
