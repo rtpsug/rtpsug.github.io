@@ -1,7 +1,7 @@
 ---
 name:
     Platinum
-category: <br/><br/>
+category: <br/>
 cost: 1250
 detail1: 
     multi-page vendor product flyer inserted in the event bag<br>
