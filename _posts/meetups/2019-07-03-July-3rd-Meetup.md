@@ -27,7 +27,7 @@ David is an IT consultant working in the IT world since the 1980's as a develope
 David works as a specialist on Microsoft platforms and products integration, including Windows, Office, System Center, SQL Server, and Active Directory. More recently David has worked as a consultant for Catapult Systems, focused on System Center, EMS, Azure, Azure AD, Office365, and Azure Automation with a heavy focus on PowerShell. David is also very active on social media (@skatterbrainzz on Twitter) and as a blogger (https://skatterbrainz.wordpress.com/) with a very sarcastic wit and always with an opinion to share. More importantly, the one thing David has is plenty of experiences to learn from.
 
 ### Resources:
-- Blog: [https://skatterbrainz.wordpress.com/)
+- Blog: [https://skatterbrainz.wordpress.com/](https://skatterbrainz.wordpress.com/)
 - David Stein [@skatterbrainzz](https://twitter.com/skatterbrainzz)
 
 #### Presentation:

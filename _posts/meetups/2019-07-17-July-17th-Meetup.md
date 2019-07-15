@@ -29,8 +29,8 @@ Brett will walk us through the process of taking those hoarded scripts from the 
 If you ever had questions about how the PowerShell pros are sharing their code with the public, then you need to join Brett for a peek at the process of how to make good code GREAT!
 
 ### Resources:
-- Blog: [https://millerb.co.uk)
-- David Stein [@BrettMiller_IT](https://twitter.com/BrettMiller_IT))
+- Blog: [https://millerb.co.uk](https://millerb.co.uk)
+- David Stein [@BrettMiller_IT](https://twitter.com/BrettMiller_IT)
 
 #### Presentation:
 - Video: TBD
