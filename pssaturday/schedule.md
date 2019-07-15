@@ -110,7 +110,7 @@ author : RTPSUG
                         </div>
                         <div class="featured-content">
                             <h4>Saturday<br>DevOps & Security</h4>
-                            <p><i>DevOps, CI\CD Pipelines, Security Practices</i></p>
+                            <p><i>DevOps, CI\CD and Security Practices</i></p>
                             <br>
                         </div>
                         {% for session in site.speakers %}
