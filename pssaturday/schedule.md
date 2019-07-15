@@ -68,7 +68,7 @@ author : RTPSUG
                         </div>
                         <div class="featured-content">
                             <h4>Saturday<br>PowerShell Tools</h4>
-                            <p><i>Scripting tools and DevOps</i></p>
+                            <p><i>Advanced Scripting and Tools</i></p>
                             <br>
                         </div>
                         {% for session in site.speakers %}
@@ -110,7 +110,7 @@ author : RTPSUG
                         </div>
                         <div class="featured-content">
                             <h4>Saturday<br>DevOps & Security</h4>
-                            <p><i>DevOps, CI\CD Pipelines and Security Practices</i></p>
+                            <p><i>DevOps, CI\CD and Security</i></p>
                             <br>
                         </div>
                         {% for session in site.speakers %}
