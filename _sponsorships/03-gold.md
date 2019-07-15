@@ -1,7 +1,7 @@
 ---
 name:
     Gold
-category:
+category:<br/>
 cost: 800
 detail1: 
     one page vendor product flyer inserted in the event bag<br>
