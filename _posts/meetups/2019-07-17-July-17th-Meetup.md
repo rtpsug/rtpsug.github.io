@@ -30,7 +30,7 @@ If you ever had questions about how the PowerShell pros are sharing their code w
 
 ### Resources:
 - Blog: [https://millerb.co.uk](https://millerb.co.uk)
-- David Stein [@BrettMiller_IT](https://twitter.com/BrettMiller_IT))
+- David Stein [@BrettMiller_IT](https://twitter.com/BrettMiller_IT)
 
 #### Presentation:
 - Video: TBD
