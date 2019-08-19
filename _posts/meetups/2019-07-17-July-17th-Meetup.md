@@ -33,4 +33,4 @@ If you ever had questions about how the PowerShell pros are sharing their code w
 - David Stein [@BrettMiller_IT](https://twitter.com/BrettMiller_IT)
 
 #### Presentation:
-- Video: TBD
+- Video: [Youtube](https://www.youtube.com/watch?v=mdVesigkE4I)
