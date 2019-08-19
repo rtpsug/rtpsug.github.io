@@ -31,4 +31,4 @@ He will walk us through the basic differences of PS and PSCore and outline where
 - Kevin Laux [@RSRYchro](https://twitter.com/rsrychro)
 
 #### Presentation:
-- Video: [Youtube](https://youtu.be/UiWbw-6ueTE)
+- Video: [Youtube](https://youtu.be/0ZoC0BtgNNw)
