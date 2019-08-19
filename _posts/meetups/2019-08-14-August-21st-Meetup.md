@@ -1,9 +1,9 @@
 ---
 layout: post
 category : meetups
-tagline: "PowerShell Core: Who, What, Where, When, Why"
+tagline: "Data to Dashboard in under an hour with Universal Dashboard!"
 tags : [bootstrap 4, web design, jekyll]
-img : meetups/2019-08-07.jpg
+img : meetups/2019-08-21.jpeg
 img-mobile : 
 img2 : 
 img3 : 
@@ -18,17 +18,19 @@ canonical: https://fullit.github.io
 ---
 {% include JB/setup %}
 
-Are you confused about the differences between PowerShell and PowerShell core? Have you heard that PowerShell 7 is coming soon? Are you curious about how to run the different flavors of PowerShell side by side? What about remotely managing Linux/Windows hosts?
+You've seen those eye-catching dashboards all over the web. They look super slick and really useful. How do they create them?
+
+In this session, we're going to introduce you to one of the slickest tools available for PowerShell: the Universal Dashboard module!! Our guest for the evening is Adam Driscoll, a software architect, business owner, and Cloud/Datacenter MVP. He is also a published author, open-source contributor, and speaker!
 
 <!--more-->
 
-Join us for answers to these questions and others as we host a discussion on the current state of the PowerShell landscape with Kevin Laux, a senior Platform Engineer in Raleigh, NC. As a PowerShell advocate, Kevin pushes his colleagues to script and use PowerShell with every opportunity. Kevin has been deeply immersed in the Linux kernel for the past year and has been working on mastering how to manage Linux with PowerShell.
+Adam is the creator of the Universal Dashboard PowerShell module and he will be showing how to use the tool to build an interactive website. We'll start with how to set up a new dashboard, add controls and consume data from other PowerShell modules. After building a basic web page we will look at how to allow users to add buttons, text boxes and dynamic controls to our solution. Finally, we will look at the new interactive mapping controls that were added in the most recent version of Universal Dashboard.
 
-He will walk us through the basic differences of PS and PSCore and outline where PowerShell is heading. Kevin will also be talking about how “PowerShell is complete” and all functionality updates are going into its open-source brother PowerShell Core and the next version of PowerShell. Last but not least, Kevin will also talk about how to install PowerShell Core and SSH on Windows as well as how to access endpoints with SSH.
+This is a live-streamed event that will also be recorded and posted on YouTube afterward. By attending this meeting, you agree to allow us to use any recordings of yourself for later use and to be posted in public forums such as YouTube and Reddit.
 
 ### Resources:
-- Github: [https://github.com/KevinLaux](https://github.com/KevinLaux)
-- Kevin Laux [@RSRYchro](https://twitter.com/rsrychro)
+- Github: [Universal-Dashboard](https://github.com/ironmansoftware/universal-dashboard)
+- Adam Driscoll [@adamdriscoll](https://twitter.com/adamdriscoll)
 
 #### Presentation:
-- Video: [Youtube](https://youtu.be/UiWbw-6ueTE)
+- Video: Not Yet Available
