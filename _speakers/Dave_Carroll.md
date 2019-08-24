@@ -9,7 +9,7 @@ talk-title: Crossing the Divide - A System Administrator's Path to DevOps
 abstract:
   Sysadmins and programmers have been divided for years, not just in job duties, but also organizationally, culturally, and philosophically. We will examine one systems administrator’s journey to see how they acquired some of the prerequisite skill sets and changed their mindset on the path to DevOps.
 talk: PowerShell-DevOps
-index: 1
+index: 3
 ---
 Systems administrators and software developers have been divided for years, not just in job duties, but also organizationally, culturally, and philosophically. We will examine one systems administrator’s journey to see how they acquired some of the prerequisite skill sets and changed their mindset on the path to DevOps.
 

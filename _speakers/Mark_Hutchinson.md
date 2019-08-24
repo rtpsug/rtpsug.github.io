@@ -7,7 +7,7 @@ linkedin :
 bio : 
 talk-title: Filtering Files at Scale
 abstract:
-    Searching for files in large datasets can be a real drag... it's like trying to find a needle in a haystack! How do you do that quickly? Let's dive into different methods available for searching for files at scale. We'll discuss pros and cons and how to improve results with simple tweaks to boost performance
+    Searching for files in large data sets can be a real drag... it's like trying to find a needle in a haystack! How do you do that quickly? Let's dive into different methods available for searching for files at scale. We'll discuss pros and cons and how to improve results with simple tweaks to boost performance
 talk: PowerShell-101
 index: 2
 ---

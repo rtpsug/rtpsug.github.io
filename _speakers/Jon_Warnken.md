@@ -9,7 +9,7 @@ talk-title: Securing Windows 10 with PowerShell Compliance items in SCCM
 abstract:
     Are the security vulnerability scans the ban of your existence? Regulatory compliance audits have worried you the wrong random system will be scanned? Learn how PowerShell and SCCM can be combined to ensure once a vulnerability is fixed it stays fixed.
 talk: PowerShell-DevOps
-index: 5
+index: 4
 
 ---
 

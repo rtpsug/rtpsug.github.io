@@ -9,7 +9,7 @@ talk-title: Why you should be using PSReadline everyday.
 abstract:
     You should be using PSReadline as it provides for an totally customize experience in the PowerShell console Customizable key bindings, better syntax highlighting, console tones, and a awesome history file of what you entered into the console and it’s available for PowerShell version 3.0+.
 talk: PowerShell-101
-index: 1
+index: 6
 ---
 
 Why you should use PSReadLine & how to get started
