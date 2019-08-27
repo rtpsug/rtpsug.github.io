@@ -39,15 +39,26 @@
         <!--END JB-PAGES LOOP-->
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
-              aria-expanded="false">Conf Info</a>
+              aria-expanded="false">Our Sponsors</a>
             <div class="dropdown-menu">
               <!--START DROPDOWN LOOP-->
               {% assign dropdown_list = site.pages %}
-              {% assign group = 'pssaturday-drop-nav' %}
+              {% assign group = 'pssaturday-sponsor-drop-nav' %}
               {% include JB/dropdown_list %}
               <!--END DROPDOWN LOOP-->
             </div>
           </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">Conf Info</a>
+              <div class="dropdown-menu">
+                <!--START DROPDOWN LOOP-->
+                {% assign dropdown_list = site.pages %}
+                {% assign group = 'pssaturday-drop-nav' %}
+                {% include JB/dropdown_list %}
+                <!--END DROPDOWN LOOP-->
+              </div>
+            </li>          
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
             aria-expanded="false">RTPSUG links</a>

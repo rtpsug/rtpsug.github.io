@@ -28,37 +28,42 @@ canonical: https://rtpsug.com
           <div id="carousel-slider" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               {% assign my_index = 0 %}
-              {% for sponsor in site.sponsors %}
-              {% if my_index == 0 %}
-              <li data-target="#carousel-slider" data-slide-to="{{ my_index }}" class="active"></li>
-              {% else %}
-              <li data-target="#carousel-slider" data-slide-to="{{ my_index }}"></li>
-              {% endif %}
-              {% assign my_index = my_index | plus: 1 %}
+                {% for sponsor in site.sponsors %}
+                  {% if my_index == 0 %}
+                    <li data-target="#carousel-slider" data-slide-to="{{ my_index }}" class="active"></li>
+                  {% else %}
+                    <li data-target="#carousel-slider" data-slide-to="{{ my_index }}"></li>
+                  {% endif %}
+                {% assign my_index = my_index | plus: 1 %}
               {% endfor %}
             </ol>
             <div class="carousel-inner" role="listbox">
               {% assign my_index = 0 %}
               {% for sponsor in site.sponsors %}
-              {% if my_index == 0 %}
-              <div class="carousel-item active">
-                <img src="{{ BASE_PATH }}/assets/images/slider/{{ sponsor.img }}" alt="">
-                <div class="carousel-caption">
-                  <h3 class="slide-title animated fadeInDown"><span class="text-primary">Sponsor</span> -
-                    {{ sponsor.name }}</h3>
-                  <h5 class="slide-text animated fadeIn">{{ sponsor.message }}</h5>
+                {% if my_index == 0 %}
+                <div class="carousel-item active">
+                  <img src="{{ BASE_PATH }}/assets/images/slider/{{ sponsor.img }}" alt="">
+                  <div class="carousel-caption">
+                    <h3 class="slide-title animated fadeInDown"><span class="text-primary">Sponsor</span> -
+                      {{ sponsor.name }}</h3>
+                    <h5 class="slide-text animated fadeIn">{{ sponsor.message }}</h5>
+                  </div>
                 </div>
-              </div>
-              {% else %}
-              <div class="carousel-item">
-                <img src="{{ BASE_PATH }}/assets/images/slider/{{ sponsor.img }}" alt="">
-                <div class="carousel-caption">
-                  <h3 class="slide-title animated fadeInDown"><span class="text-primary">Sponsor</span> -
-                    {{ sponsor.name }}</h3>
-                  <h5 class="slide-text animated fadeIn">{{ sponsor.message }}</h5>
+                {% else %}
+                <div class="carousel-item">
+                  <img src="{{ BASE_PATH }}/assets/images/slider/{{ sponsor.img }}" alt="">
+                  <div class="carousel-caption">
+                    <h3 class="slide-title animated fadeInDown">
+                      <span class="text-primary">{{ sponsor.type }} Sponsor</span> - {{ sponsor.name }}
+                    </h3>
+                    <h5 class="slide-text animated fadeIn">{{ sponsor.message }}</h5>
+                    <a href="#" class="btn btn-lg btn-default-filled animated fadeInUp">
+                        <img src="{{ BASE_PATH }}{{ sponsor.logo }}" alt="{{ sponsor.name }}">
+                    </a>
+
+                  </div>
                 </div>
-              </div>
-              {% endif %}
+                {% endif %}
               {% assign my_index = my_index | plus: 1 %}
               {% endfor %}
             </div>

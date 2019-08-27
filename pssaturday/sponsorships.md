@@ -1,7 +1,7 @@
 ---
 layout: pssat
 title: Become A Sponsor
-group: pssaturday-nav
+group: pssaturday-sponsor-drop-nav
 author : RTPSUG
 ---
 {% include JB/setup %}
