@@ -10,11 +10,14 @@ group: pssaturday-sponsor-drop-nav
 
 <div class="container text-center">
 <div class="container text-center light-footer">
-  <h5 class="heading-title text-center">
-  <br>
-We would like to thank our sponsors for their generous support of our event and the community.  Their support enables us to provide lower cost for attendees and provide a better quality event overall.
 <br>
+<h5 class="heading-title text-center">
+We would like to thank our sponsors for their generous support of our event and the community.
+<br>
+Their support enables us to provide lower cost for attendees and provide a better quality event overall.
 </h5>
+<br>
+<div>
 <div>
 <div class="container text-center" style="background:#ffffff">
 <br>
@@ -26,21 +29,21 @@ We would like to thank our sponsors for their generous support of our event and 
 <br>
 
   <a href="https://www.teksystems.com/en">
-  <img class="mb-10 footer-logo" style="width: 40%" src="{{ BASE_PATH }}/assets/images/sponsors/TEKsystems.png"
+  <img class="mb-10 footer-logo" style="width: 35%" src="{{ BASE_PATH }}/assets/images/sponsors/TEKsystems.png"
     alt="Let's own change, together.">
   </a>
 
   <a href="https://www.pluralsight.com/">
-  <img class="mb-10 footer-logo" style="width: 50%" src="{{ BASE_PATH }}/assets/images/sponsors/PluralSight.png"
+  <img class="mb-10 footer-logo" style="width: 35%" src="{{ BASE_PATH }}/assets/images/sponsors/PluralSight.png"
     alt="Helping Thousands Of Organizations Build Tech Skills At Scale">
   </a>
 
   <a href="https://chocolatey.org/">
-  <img class="mb-10 footer-logo" style="width: 50%" src="{{ BASE_PATH }}/assets/images/sponsors/Chocolatey.png"
+  <img class="mb-10 footer-logo" style="width: 35%" src="{{ BASE_PATH }}/assets/images/sponsors/Chocolatey.png"
     alt="The package manager for Windows">
   </a>
   <a href="https://www.scriptrunner.com/en/">
-  <img class="mb-10 footer-logo" style="width: 45%" src="{{ BASE_PATH }}/assets/images/sponsors/ScriptRunner.png"
+  <img class="mb-10 footer-logo" style="width: 35%" src="{{ BASE_PATH }}/assets/images/sponsors/ScriptRunner.png"
     alt="Make PowerShell a real solution.">
   </a>
 </div>
