@@ -27,7 +27,7 @@ group: pssaturday-sponsor-drop-nav
 <div class="container text-center">
 <br>
   <a href="https://www.teksystems.com/en">
-  <img class="mb-10 footer-logo" style="width: 40%" src="{{ BASE_PATH }}/assets/images/sponsors/TEKSystems.png"
+  <img class="mb-10 footer-logo" style="width: 40%" src="{{ BASE_PATH }}/assets/images/sponsors/TEKsystems.png"
     alt="Let's own change, together.">
   </a>
 </div>
