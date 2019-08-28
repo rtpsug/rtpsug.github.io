@@ -5,7 +5,7 @@ twitter : Teskemj
 website : https://www.pluralsight.com/authors/michael-teske
 linkedin : 
 bio : 
-talk-title: Working with Azure
+talk-title: Don't do what I did! Avoiding Azure $urprise$!
 abstract:
     ---  To be announced  ---
 talk: PowerShell-Tools
