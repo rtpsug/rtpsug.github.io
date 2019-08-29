@@ -2,8 +2,8 @@
 layout: pssat
 title : Our Speakers
 group : pssaturday-nav
-img : pssaturday-tracks.png
-img-mobile : pssaturday-tracks.png
+img : pssatTracks.png
+img-mobile : pssatTracks.png
 author : rtpsug
 creator : rtpsug
 ---

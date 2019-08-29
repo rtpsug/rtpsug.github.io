@@ -2,8 +2,8 @@
 layout : pssat
 group : pssaturday
 title : Tickets
-img : pssaturday-tickets.png
-img-mobile : pssaturday-tickets.png
+img : pssattickets.png
+img-mobile : pssattickets.png
 author : rtpsug
 creator : rtpsug
 ---

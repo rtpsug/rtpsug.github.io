@@ -3,8 +3,8 @@ layout: page2
 title: Hotel Info
 tagline: Hotel Information.
 group: pssaturday-drop-nav
-img : pssaturday-homepage.png
-img-mobile : pssaturday-homepage.png
+img : pssaturday.png
+img-mobile : pssaturday.png
 author : rtpsug
 creator : rtpsug
 ---

@@ -3,8 +3,8 @@ layout: pssat
 title: Flyer
 tagline: flyer
 group: pssaturday-drop-nav
-img : pssaturday-homepage.png
-img-mobile : pssaturday-homepage.png
+img : pssaturday.png
+img-mobile : pssaturday.png
 author : rtpsug
 creator : rtpsug
 ---

@@ -4,8 +4,8 @@ title: Location Info
 tagline: PowerSHell Saturday Location
 group: pssaturday-drop-nav
 tags : [maps, components]
-img : pssaturday-homepage.png
-img-mobile : pssaturday-homepage.png
+img : pssaturday.png
+img-mobile : pssaturday.png
 author : rtpsug
 creator : rtpsug
 js: maps.js

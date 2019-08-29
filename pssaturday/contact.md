@@ -4,8 +4,8 @@ title: Contact Us
 tagline: Got questions? We've got answers.
 group: pssaturday-drop-nav
 tags : [contact, components]
-img : pssaturday-homepage.png
-img-mobile : pssaturday-homepage.png
+img : pssaturday.png
+img-mobile : pssaturday.png
 author : rtpsug
 creator : rtpsug
 css: 
