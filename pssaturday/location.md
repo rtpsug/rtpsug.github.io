@@ -1,6 +1,6 @@
 ---
 layout: pssat
-title: Location
+title: Location Info
 tagline: PowerSHell Saturday Location
 group: pssaturday-drop-nav
 tags : [maps, components]

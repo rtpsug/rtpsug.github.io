@@ -1,5 +1,5 @@
 ---
-title : About
+title : About Us
 group : pssaturday-nav
 img : pssaturday-homepage.png
 img-mobile : pssaturday-homepage.png
