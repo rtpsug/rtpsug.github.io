@@ -35,11 +35,13 @@ lantoniotrento@gmail.com
 	<!-- CSS loaded by the children page -->
         
 
-    <meta property="og:title" content="Contact">
-    <meta property="og:description" content="">
-    <meta property="og:image" content="https://heliumjk.github.io/assets/img/big/">
-    <meta property="og:url" content="https://heliumjk.github.io">
-    <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{{ page.tagline }}">
+  <meta property="og:image" content="{{ BASE_PATH }}/assets/img/big/{{ page.img }}">
+  <meta property="og:url" content="{{ BASE_PATH }}">
+  <meta name="twitter:card" content="{{ BASE_PATH }}/assets/img/big/{{ page.img }}">
+  <meta name="twitter:site" content="@{{ page.author }}" />
+  <meta name="twitter:creator" content="@{{ page.creator }}" />
 
 	<!--[if IE]>
 		<script type="text/javascript">
