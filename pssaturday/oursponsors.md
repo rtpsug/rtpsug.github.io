@@ -3,6 +3,10 @@ layout: pssat-nosponsor
 title: Sponsors
 tagline: Sponsors
 group: pssaturday-sponsor-drop-nav
+img : pssaturday-homepage.png
+img-mobile : pssaturday-homepage.png
+author : rtpsug
+creator : rtpsug
 ---
 <!--  only user Front Matter  -->
 <!--  CONTENT IN _pssaturday\ -->

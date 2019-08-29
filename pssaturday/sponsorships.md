@@ -2,7 +2,10 @@
 layout: pssat
 title: Become A Sponsor
 group: pssaturday-sponsor-drop-nav
-author : RTPSUG
+img : pssaturday-homepage.png
+img-mobile : pssaturday-homepage.png
+author : rtpsug
+creator : rtpsug
 ---
 {% include JB/setup %}
 <!-- Content Area Start -->

@@ -3,7 +3,10 @@ layout: pssat
 title: Event Schedule
 tagline: Schedule of Events
 group: pssaturday-nav
-author : RTPSUG
+img : pssaturday-tracks.png
+img-mobile : pssaturday-tracks.png
+author : rtpsug
+creator : rtpsug
 ---
 {% include JB/setup %}
 <!-- Content Area Start -->
