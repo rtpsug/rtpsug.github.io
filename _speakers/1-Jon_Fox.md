@@ -2,7 +2,7 @@
 name : Jon Fox
 img : jon_fox.jpg
 twitter : JofoMsft
-website : https://www.brycemcdonald.net
+website : 
 linkedin : 
 bio : 
 talk-title: PowerShell Security 102?
