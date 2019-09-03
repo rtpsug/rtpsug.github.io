@@ -34,7 +34,7 @@ Be sure not to miss this event! If you work with Active Directory and its direct
 If you cannot join us in person, you can also join us online. This is a live-streamed event that will also be recorded and posted on YouTube afterward. By attending this meeting, you agree to allow us to use any recordings of yourself for later use and to be posted in public forums such as YouTube and Reddit.
 
 ### Resources:
-- Blog: [Blog](https://blog.iisreset.me/)
+- Blog: [blog.iisreset.me](https://blog.iisreset.me/)
 - Mathias Jessen [@iisresetme](https://twitter.com/iisresetme)
 
 #### Presentation:
