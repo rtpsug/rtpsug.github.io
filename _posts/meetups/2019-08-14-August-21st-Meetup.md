@@ -33,4 +33,4 @@ This is a live-streamed event that will also be recorded and posted on YouTube a
 - Adam Driscoll [@adamdriscoll](https://twitter.com/adamdriscoll)
 
 #### Presentation:
-- Video: Not Yet Available
+- Video: [Youtube](https://youtu.be/6eOjRQi4vUU)
