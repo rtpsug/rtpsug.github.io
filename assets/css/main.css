@@ -3331,6 +3331,7 @@ figure{
 .table-striped>tbody>tr:nth-of-type(2n+1){
     background-color:#e3e3e3
 }
+
 #default-tab ul.nav-tabs{
     border-bottom:none;
     padding-bottom:5px
