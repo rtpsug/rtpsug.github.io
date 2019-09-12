@@ -3294,6 +3294,10 @@ figure{
 .table-1{
     color:#fff
 }
+.table-bordered.table-1>thead>tr>th{
+    width: 25%;
+    vertical-align: middle
+}
 .table-bordered.table-2>thead>tr>th{
     width: 100%;
     background:#232833;
@@ -3301,7 +3305,7 @@ figure{
     color:#EB586F
 }
 .table-bordered.table-3>thead>tr>th{
-    width: 100%;
+    width: %;
     background:#EB586F;
     font-weight:700;
     color:#fff
@@ -3321,7 +3325,8 @@ figure{
     padding:18px 20px;
     color:#444;
     text-align:center;
-    font-size:14px
+    font-size:14px;
+    vertical-align: middle
 }
 .table-striped>tbody>tr:nth-of-type(2n+1){
     background-color:#e3e3e3
