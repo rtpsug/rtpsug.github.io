@@ -1,7 +1,7 @@
 ---
 layout: pssat
-title: Event Schedule
-tagline: Schedule of Events
+title: Sessions Tracks
+tagline: Tracks and Sessions
 group: pssaturday-nav
 img : pssatTracks.png
 img-mobile : pssatTracks.png
@@ -22,7 +22,6 @@ creator : rtpsug
         <div class="row">
             <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="features-wrap">
-
                     <div class="featured-box">
                         <div class="featured-icon">
                             <i class="fa fa-cubes"></i>
@@ -146,7 +145,6 @@ creator : rtpsug
                         {% endfor %}
                     </div>
                 </div>
-
             </div>
         </div>
         <div class="row">
@@ -191,7 +189,6 @@ creator : rtpsug
                         {% endfor %}
                     </div>
                 </div>
-
             </div>
         </div>
     </div>

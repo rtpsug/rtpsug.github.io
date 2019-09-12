@@ -4,7 +4,6 @@ group : pssaturday-nav
 title: Schedule
 tagline: Schedule for the Day
 ---
-
 {% include JB/setup %}
 <!-- Content Area Start -->
 <div class="table-style2">
