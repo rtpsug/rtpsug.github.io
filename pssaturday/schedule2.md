@@ -8,7 +8,7 @@ tagline: Schedule for the Day
 <!-- Content Area Start -->
 <div class="table-style2">
     <div class="sub-title">
-        <span>Saturday Schedule</span>
+        <span>Saturday Schedule  - 8AM -5 PM</span>
     </div>
     <div class="table-responsive mtb">
         <table class="table table-bordered table-1 table-striped">
@@ -411,6 +411,117 @@ tagline: Schedule for the Day
                     <td style="vertical-align: middle">
                         <p style="font-weight:700">
                             5:00 - 5:15
+                        </p>
+                    </td>
+                    <td colspan="3" style="vertical-align: middle">
+                        Closing / Thank Yous / Raffles
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+<div class="mb-60">&nbsp;</div>
+
+<div class="table-style2">
+    <div class="sub-title">
+        <span>Sunday Schedule  - 8AM - 3PM</span>
+    </div>
+    <div class="table-responsive mtb">
+        <table class="table table-bordered table-1 table-striped">
+            <thead>
+                <tr>
+                    <td style="width: 25%"></td>
+                    <th style="width: 75%">Security Deep Dive</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="vertical-align: middle">
+                        <p style="font-weight:700">
+                            8:30 - 9:00
+                        </p>
+                    </td>
+                    <td colspan="3" style="vertical-align: middle">
+                        Breakfast
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: middle">
+                        <p style="font-weight:700">
+                            9:00 - 10:15
+                        </p>
+                    </td>
+                    <td colspan="3" style="vertical-align: middle">
+                        Security Session
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: middle">
+                        <p style="font-weight:700">
+                            10:15 - 10:30
+                        </p>
+                    </td>
+                    <td colspan="3" style="vertical-align: middle">
+                        Break
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: middle">
+                        <p style="font-weight:700">
+                            10:30 - 11:45
+                        </p>
+                    </td>
+                    <td colspan="3" style="vertical-align: middle">
+                        Security Session
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: middle">
+                        <p style="font-weight:700">
+                            11:45 - 12:30
+                        </p>
+                    </td>
+                    <td colspan="3" style="vertical-align: middle">
+                        Lunch
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: middle">
+                        <p style="font-weight:700">
+                            12:30 - 1:30
+                        </p>
+                    </td>
+                    <td colspan="3" style="vertical-align: middle">
+                        Security Session
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: middle">
+                        <p style="font-weight:700">
+                            1:30 - 1:45
+                        </p>
+                    </td>
+                    <td colspan="3" style="vertical-align: middle">
+                        Break
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: middle">
+                        <p style="font-weight:700">
+                            1:45 - 2:50
+                        </p>
+                    </td>
+                    <td colspan="3" style="vertical-align: middle">
+                        Security Session
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: middle">
+                        <p style="font-weight:700">
+                            2:50 - 3:00
                         </p>
                     </td>
                     <td colspan="3" style="vertical-align: middle">
