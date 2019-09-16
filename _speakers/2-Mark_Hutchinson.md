@@ -7,7 +7,7 @@ linkedin :
 bio : 
 talk-title: Filtering Files at Scale
 abstract:
-    Searching for files in large data sets can be a real drag... it's like trying to find a needle in a haystack! How do you do that quickly? Let's dive into different methods available for searching for files at scale. We'll discuss pros and cons and how to improve results with simple tweaks to boost performance
+    Searching for files in large data sets can be a real drag. It's like trying to find a needle in a haystack! How do you do that quickly?While most Powershell problems are I/O bound, sometimes the limitation is memory. Mark will show the many ways that I/O can slow your PS scripts, using file filtering methods as examples. The overarching topic of this presentation is performance analysis. Let's dive into different methods available for searching for files at scale using available tools/utilities. We'll discuss pros and cons and how to improve results to boost performance.
 talk: PowerShell-101
 index: 2
 ---
