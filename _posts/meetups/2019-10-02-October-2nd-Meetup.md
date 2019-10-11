@@ -1,9 +1,9 @@
 ---
 layout: post
 category : meetups
-tagline: "RepAdmin: A PowerSheller's Guide To AD Directory Services"
+tagline: "Career Development Talk!"
 tags : [bootstrap 4, web design, jekyll]
-img : meetups/2019-09-09.jpg
+img : meetups/2019-10-02.jpg
 img-mobile : 
 img2 : 
 img3 : 
@@ -18,24 +18,18 @@ canonical: https://fullit.github.io
 ---
 {% include JB/setup %}
 
-Please join us for a very special event!!!! Please be aware that this event will be held on a MONDAY NIGHT!!!
-
-This month we are proud to be hosting Matthais Jessen in person to do a deep dive exploration of the corners of Active Directory Domain Services most admins probably don't think about that often.
+Join us as we take a break from code and sit down with three industry veterans to discuss how PowerShell has played a role in their careers and where they see the industry headed - not just for PowerShell and automation - but for all of IT!
 
 <!--more-->
 
-Who is Matthias Jessen?
-Matthias (twitter: @iisresetme) is a well-known community member who lives in the Netherlands and speaks at just about every major PowerShell conference around the world. He is known for a razor-sharp mind and an interesting wit as well. He works as an AD security engineer and blue team member by day and acts as an advocate for PowerShell and automation in his own personal time.
+This month we'll be hosting a panel discussion with Michael Bender (PluralSight), Julie Andreacola (Microsoft PFE), and Fernando Tomlinson (US Department of Defense). Our panelists will talk about and answer questions on all aspects of career development. They'll share their triumphs and mistakes and share tools they use for learning. You'll get a firsthand account of the things they did to be successful and the things they wish they had avoided.
 
-One thing you can count on with Matthias is to learn something amazing every time he speaks because he is not afraid to explore other areas untouched by many speakers!
-
-Be sure not to miss this event! If you work with Active Directory and its directory service, then this is a must-attend event.
-
-If you cannot join us in person, you can also join us online. This is a live-streamed event that will also be recorded and posted on YouTube afterward. By attending this meeting, you agree to allow us to use any recordings of yourself for later use and to be posted in public forums such as YouTube and Reddit.
+But we don't just want you to come and watch this panel discussion! You're invited to ask questions that could help you figure out where you should focus your time and what are useful resources to help you get ahead! This is a unique opportunity to get direct answers YOUR career questions!
 
 ### Resources:
-- Blog: [blog.iisreset.me](https://blog.iisreset.me/)
-- Mathias Jessen [@iisresetme](https://twitter.com/iisresetme)
+- Julie Andreacola: [@jandreacola](https://twitter.com/jandreacola)
+- Fernando Tomlinson: [@Wired_Pulse](https://twitter.com/Wired_Pulse) [Blog](https://cyberfibers.com/)
+- Michael Bender: [@MichaelBender](https://twitter.com/MichaelBender) [Blog](https://www.itsallgeek2mike.com/)
 
 #### Presentation:
 - Video: Not Yet Available
