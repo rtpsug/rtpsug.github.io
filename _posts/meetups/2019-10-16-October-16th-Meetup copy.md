@@ -3,7 +3,7 @@ layout: post
 category : meetups
 tagline: "Use PowerShell's Default Formats to Improve your Quality of Life"
 tags : [bootstrap 4, web design, jekyll]
-img : meetups/2019-10-02.jpg
+img : meetups/2019-10-16.jpg
 img-mobile : 
 img2 : 
 img3 : 
