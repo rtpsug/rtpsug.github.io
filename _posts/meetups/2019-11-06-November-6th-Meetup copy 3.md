@@ -1,35 +1,33 @@
 ---
 layout: post
 category : meetups
-tagline: "Career Development Talk!"
+tagline: "Configuring PSRemoting security and logging"
 tags : [bootstrap 4, web design, jekyll]
-img : meetups/2019-10-02.jpg
+img : meetups/2019-11-06.jpg
 img-mobile : 
 img2 : 
 img3 : 
 author : RTPSUG
-title2 : Writing Code
+title2 : PowerShell Core Concepts
 title3 : 
 css: 
 js: 
 bgcolor: ff5a71
-keywords: PowerShell, PowerShell Development, VSCode
+keywords: PowerShell, PowerShell Development, VSCode, PowerShell Core Concepts
 canonical: https://fullit.github.io
 ---
 {% include JB/setup %}
 
-Join us as we take a break from code and sit down with three industry veterans to discuss how PowerShell has played a role in their careers and where they see the industry headed - not just for PowerShell and automation - but for all of IT!
+Mike Kanakos will walk us through the major pieces of PowerShell remoting. This talk will focus on security and logging along with a discussion about convincing your InfoSec team that remoting is safe to use.
 
 <!--more-->
 
-This month we'll be hosting a panel discussion with Michael Bender (PluralSight), Julie Andreacola (Microsoft PFE), and Fernando Tomlinson (US Department of Defense). Our panelists will talk about and answer questions on all aspects of career development. They'll share their triumphs and mistakes and share tools they use for learning. You'll get a firsthand account of the things they did to be successful and the things they wish they had avoided.
+Mike is an Active Directory Engineer at Fortune 20 company and relies on remoting for most his work during the day. Mike is the co-leader of RTPSUG, director of community engagement for PowerShell.org and a frequent contributor to the PowerShell community.
 
-But we don't just want you to come and watch this panel discussion! You're invited to ask questions that could help you figure out where you should focus your time and what are useful resources to help you get ahead! This is a unique opportunity to get direct answers YOUR career questions!
+Join Mike for a walk-through on all the major pieces involved in PowerShell remoting and use remoting safely and securely. As always, our group is open to anyone who would like to learn more about PowerShell.
 
 ### Resources:
-- Julie Andreacola: [@jandreacola](https://twitter.com/jandreacola)
-- Fernando Tomlinson: [@Wired_Pulse](https://twitter.com/Wired_Pulse) [Blog](https://cyberfibers.com/)
-- Michael Bender: [@MichaelBender](https://twitter.com/MichaelBender) [Blog](https://www.itsallgeek2mike.com/)
+- Mike Kanakos: [@MikeKanakos](https://twitter.com/MikeKanakos) [Blog](https://www.networkadm.in/)
 
 #### Presentation:
-- Video: Not Yet Available
+- Video: [Youtube](https://youtu.be/rvg8FNFkpco)

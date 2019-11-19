@@ -1,7 +1,7 @@
 ---
 layout: post
 category : meetups
-tagline: "Career Development Talk!"
+tagline: "Use PowerShell's Default Formats to Improve your Quality of Life"
 tags : [bootstrap 4, web design, jekyll]
 img : meetups/2019-10-02.jpg
 img-mobile : 
@@ -18,18 +18,19 @@ canonical: https://fullit.github.io
 ---
 {% include JB/setup %}
 
-Join us as we take a break from code and sit down with three industry veterans to discuss how PowerShell has played a role in their careers and where they see the industry headed - not just for PowerShell and automation - but for all of IT!
+Jeremy Smith will present his talk he shared at PowerShell Saturday in Raleigh. He'll be showing how custom formats can help make life easier for repetitive tasks.
 
 <!--more-->
 
-This month we'll be hosting a panel discussion with Michael Bender (PluralSight), Julie Andreacola (Microsoft PFE), and Fernando Tomlinson (US Department of Defense). Our panelists will talk about and answer questions on all aspects of career development. They'll share their triumphs and mistakes and share tools they use for learning. You'll get a firsthand account of the things they did to be successful and the things they wish they had avoided.
+We often overlook custom default formats, but the good news is they’re easy to create. Jeremy will walk you through practical examples and guidance on when to use, or not use, this feature.
 
-But we don't just want you to come and watch this panel discussion! You're invited to ask questions that could help you figure out where you should focus your time and what are useful resources to help you get ahead! This is a unique opportunity to get direct answers YOUR career questions!
+- Tired of piping results to Select-Object, Format-Table or Format-List just to see the properties you care about?
+- Want to always see file sizes in human-readable form without Googling for the format expression syntax?
+- What about color-coding your results?
 
-### Resources:
-- Julie Andreacola: [@jandreacola](https://twitter.com/jandreacola)
-- Fernando Tomlinson: [@Wired_Pulse](https://twitter.com/Wired_Pulse) [Blog](https://cyberfibers.com/)
-- Michael Bender: [@MichaelBender](https://twitter.com/MichaelBender) [Blog](https://www.itsallgeek2mike.com/)
+Come and learn how to solve these problems and more. Learn how to view your most common output the way YOU want to!
+
+Jeremy is an application support engineer and is often tasked with coming up with unique ways to solve problems. He's been attending the RTPSUG meetings for about 6 months now and every time we speak with him, he always has his hands in interesting projects and solving issues with PowerShell.
 
 #### Presentation:
-- Video: Not Yet Available
+- Video: https://youtu.be/6jNDSb48BYg
