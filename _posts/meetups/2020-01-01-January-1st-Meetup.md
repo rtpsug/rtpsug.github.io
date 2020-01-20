@@ -3,7 +3,7 @@ layout: post
 category : meetups
 tagline: "Why can't we be friends? Command Line Utilities + PowerShell = <3"
 tags : [bootstrap 4, web design, jekyll]
-img : meetups/2019-11-20.jpg
+img : meetups/2020-01-01.jpg
 img-mobile : 
 img2 : 
 img3 : 
