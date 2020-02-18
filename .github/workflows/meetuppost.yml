@@ -3,7 +3,7 @@ name: CI
 on:
   push:
     branches:
-    - master
+    - meetup_action_test
 
 jobs:
   build:
