@@ -14,4 +14,3 @@ jobs:
     - uses: actions/checkout@v1
     - name: Run a one-line script
       run: .\MyScripts\meetup.ps1
-        shell: powershell
