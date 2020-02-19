@@ -42,3 +42,10 @@ https://everytimezone.com/s/2aad4313
 If you cannot join us in person, you can also join us online via WebEx. If you join us online, we’ll send you the remote connection info approximately 3 hrs before the start of the meeting. We also record all of our meetings and place the recordings on our YouTube channel a few days after the meeting.
 
 By attending this meeting, you agree to allow us to use any recordings of yourself for later use in public forums such as YouTube and Reddit.
+
+### Resources:
+- [The Six Commands You NEED To Know To Work With Git](https://thomasrayner.ca/first-git-commands/)
+- [GIT 101: “Git” up to speed on Git and source control](https://rtpsug.com/meetups/2019/03/06/March-6th-Meetup)
+
+### YouTube
+- [Link](https://youtu.be/IZHbX8PJRWM)
