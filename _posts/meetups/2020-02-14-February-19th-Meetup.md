@@ -33,3 +33,7 @@ We'll start off with a quick review of the fundamentals from last month's meetin
 If you didn't attend last month's meeting or you did but you feel like you need some refresher on the git intro, then please follow this link for a great article from Thomas Rayner. It is the content form our last meeting in an easy to follow article that you can get through in about 5 minutes.
 
 Article Link: [First Git Commands](https://thomasrayner.ca/first-git-commands/)
+
+### Resources
+
+[Members Site](https://rtpsugmembers.github.io/members)
