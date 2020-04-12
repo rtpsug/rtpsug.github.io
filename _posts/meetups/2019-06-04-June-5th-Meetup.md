@@ -2,7 +2,7 @@
 layout: post
 category : meetups
 tagline: "PowerShell Pro Tools: Take Your PowerShell to New Places"
-tags : [bootstrap 4, web design, jekyll]
+tags : [PowerShell, Pro Tools, VSCode, Development]
 img : meetups/2019-06-05.jpg
 img-mobile : 
 img2 : 
@@ -13,7 +13,7 @@ title3 :
 css: 
 js: 
 bgcolor: ff5a71
-keywords: PowerShell, PowerShell Pro Tools, VSCode
+keywords: PowerShell, Pro Tools, VSCode, Development
 canonical: https://fullit.github.io
 ---
 {% include JB/setup %}
@@ -26,12 +26,13 @@ This month, Microsoft MVP Tim Warner [@TechTrainerTim](https://twitter.com/techt
 
 We invite to join us and see how with the right set of tools, tasks that seem daunting can be much easier to accomplish. Take your PowerShell development to areas you never thought you would venture into with PowerShell Pro Tools!
 
-
 ### Resources:
-- PowerShell Pro Tools: [https://poshtools.com/powershell-pro-tools/](https://poshtools.com/powershell-pro-tools/)
-- Tim Warner [@TechTrainerTim](https://twitter.com/techtrainertim)
-- Adam Driscoll: [@adamdriscoll](https://twitter.com/adamdriscoll)
+
+* PowerShell Pro Tools: [https://poshtools.com/powershell-pro-tools/](https://poshtools.com/powershell-pro-tools/)
+* Tim Warner [@TechTrainerTim](https://twitter.com/techtrainertim)
+* Adam Driscoll: [@adamdriscoll](https://twitter.com/adamdriscoll)
 
 #### Presentation:
-- Video: TBD
+
+* Video: TBD
 

@@ -2,7 +2,7 @@
 layout: post
 category : usergroup
 tagline: "Monthly Roundup for May!"
-tags : [bootstrap 4, web desing, jekyll]
+tags : [UserGroup, News]
 img : meetups/2019-05-11-newsprint.jpg
 img-mobile : 
 img2 : 
@@ -13,12 +13,13 @@ title3 :
 css: 
 js: 
 bgcolor: ff5a71
-keywords: helium, web design, css, html, bootstrap 4
+keywords: UserGroup, News
 canonical: https://fullit.github.io
 ---
 {% include JB/setup %}
 
 ### Welcome to our first official newsletter.
+
 This is a new idea we're looking to develop further and welcome your feedback on what you think of the newsletter concept for our user group. We are planning to send out a monthly newsletter that talks about all things PowerShell in the community and the things we have planned for the near future as well as a discussion of the topics recently discussed at groups meetings. We hope you find the information in our newsletter helpful and insightful. We're still figuring out the right length, so please let us know what you think!
 
 <!--more-->
@@ -41,7 +42,7 @@ Stephen is a great speaker and always has tons of awesome examples to share. He 
 
 ### BONUS: Resume Workshop with TEKSystems
 
-You often hear us talking about building a community to help each other out. This event we expand on that idea when we welcome TEKSystems to our May 15th meeting to give a 10-minute talk about the state of the job market and what PowerShell means to employers. **_TEKSystems has offered to review anyone's resume during our regularly scheduled meeting_** and offer feedback and tips on how to make improvements before the meeting ends. They will not be holding onto anyone resumes. Instead, they will "red pen" your resume and then you can speak with them afterwards if you like.
+You often hear us talking about building a community to help each other out. This event we expand on that idea when we welcome TEKSystems to our May 15th meeting to give a 10-minute talk about the state of the job market and what PowerShell means to employers.**_TEKSystems has offered to review anyone's resume during our regularly scheduled meeting_** and offer feedback and tips on how to make improvements before the meeting ends. They will not be holding onto anyone resumes. Instead, they will "red pen" your resume and then you can speak with them afterwards if you like.
 
 _**Everyone is encouraged to bring their resumes**_ with them to get a free evaluation and critique from TEK Systems. Do not miss out on this opportunity to have a recruiter review your resume and offer feedback on how to make yourself the most marketable!
 
@@ -51,8 +52,7 @@ _**Everyone is encouraged to bring their resumes**_ with them to get a free eval
 
 We're excited to have Microsoft MVP and Pluralsight author [Tim Warner](https://techtrainertim.com/) presenting for us once again on June 5th! You may remember Tim's excellent discussion of how to get started with VSCODE and his personal tips for how to get going without much effort. Tim is back with us in June to talk about a tool he has been using for a while now: PowerShell Pro Tools.
 
-The toolset is a suite of tools designed to help bring PowerShell language support to the development environment. You may not need to perform complex tasks such as convert C# to PowerShell, creating a GUI front-end for a PowerShell function or packaging your PowerShell module as an EXE or DLL very often. As a result, most people struggle when they need to do these types of tasks. [Adam Driscoll's PowerShell Pro Tools](https://poshtools.com/powershell-pro-tools/) is here to do those tasks for you. Tim will be walking us through how to use PowerShell Pro Tools in three environments: Visual Studio, Visual Studio Code, and the PowerShell console.
-
+The toolset is a suite of tools designed to help bring PowerShell language support to the development environment. You may not need to perform complex tasks such as convert C# to PowerShell, creating a GUI front-end for a PowerShell function or packaging your PowerShell module as an EXE or DLL very often. As a result, most people struggle when they need to do these types of tasks.[Adam Driscoll's PowerShell Pro Tools](https://poshtools.com/powershell-pro-tools/) is here to do those tasks for you. Tim will be walking us through how to use PowerShell Pro Tools in three environments: Visual Studio, Visual Studio Code, and the PowerShell console.
 
 ### Local Meeting (June 19th): Lightning Demos / Code Sharing
 
@@ -60,7 +60,7 @@ For the past year, we have been hosting in-depth sessions featuring one person t
 
 We'll be spotlighting up to 10 different community members who will be graciously sharing small snippets of code they have written to solve problems in their everyday work environments. Each speaker will be given up to 10 minutes to quickly explain what they built, how it works and why they built it. The magic of this meeting will be that everyone should come away with lots of ideas that they can possibly use in their own environments and we'll get to see many different styles of presenters. The short time frame forces people to stay on point and speak pretty casually.
 
-We're still accepting people who would like to to talk at this meeting, if you are interested please get in touch with [Mike Kanakos](mailto:mkanakos@gmail.com) or Phil Bossman. As a reminder,  this is about sharing code and speakers should talk casually about their snippets. No slides are needed and speakers don't need to have a formal presentation. All you need to do is explain what you did and show it off with a simple example. ANYONE CAN DO THIS and this a great way to get used to talking in front of a larger group of people!
+We're still accepting people who would like to to talk at this meeting, if you are interested please get in touch with [Mike Kanakos](mailto:mkanakos@gmail.com) or Phil Bossman. As a reminder, this is about sharing code and speakers should talk casually about their snippets. No slides are needed and speakers don't need to have a formal presentation. All you need to do is explain what you did and show it off with a simple example. ANYONE CAN DO THIS and this a great way to get used to talking in front of a larger group of people!
 
 ## RTPSUG is hosting a PowerShell Saturday!
 
@@ -81,12 +81,13 @@ This event is open to speakers of all skill levels and is an excellent opportuni
 
 All topics should be geared towards one of the three main topic areas we are following for this conference.
 
-  - PowerShell 101 (Intro and Fundamentals)
-  - PowerShell Tools (Scripting tools and DevOps)
-  - Manage the Cloud with PowerShell (Azure, AWS or GCP)
-
+  + PowerShell 101 (Intro and Fundamentals)
+  + PowerShell Tools (Scripting tools and DevOps)
+  + Manage the Cloud with PowerShell (Azure, AWS or GCP)
 
 See the [Speakers page](https://rtpsug.com/pssaturday/speakers) of our website for more information on the kinds of topics we recommend and what materials you may want to consider for your talk. Most of all though, we want you to know that we're here to help you be successful. YOU CAN DO THIS. It takes a bit of prep work, but the rewards afterward are great! But don't drag your feet! You only have till June 2nd to get your topic in for review!
 
 ### PowerShell Saturday Sponsorship Opportunities
+
 We have a few choice opportunities for local businesses and vendors to sponsor our event and help us bring this event to the local community. All of our sponsors will be given recognition for their generous donations as well as some valuable placement in our literature for the day. We also have opportunities to have a booth set up at the event to interact with conference attendees. If you would like to sponsor us, please see the [Sponsorship page](https://rtpsug.com/pssaturday/sponsorships) our website for details or get in touch with [Mike Kanakos](mailto:mkanakos@gmail.com).
+

@@ -2,7 +2,7 @@
 layout: post
 category : meetups
 tagline: Enterprise Reporting & Notifications with PowerShell
-tags : [bootstrap 4, web design, jekyll]
+tags : [PowerShell, Administration, Reporting, Tools]
 img : meetups/2019-04-03.jpg
 img-mobile : 
 img2 : 
@@ -13,7 +13,7 @@ title3 :
 css: 
 js: 
 bgcolor: ff5a71
-keywords: helium, web design, css, html, bootstrap 4
+keywords: PowerShell, Administration, Reporting, Tools
 canonical: https://fullit.github.io
 ---
 {% include JB/setup %}
@@ -31,3 +31,4 @@ Our guest speaker for this meeting is Bradley Wyatt, who is a sysadmin located i
 Bradley has worked extensively on using PowerShell to create meaningful alerts and reports that have a ton of value and pop! He has produced a small arsenal of tools for sending data to Teams in real time as well as creating dashboards and reports that pull data from various Microsoft cloud products like Office365, Intune and others. Simply put, Bradley has an eye for making attractive reports that are different than what you might have seen in the past.
 
 This is a live streamed event that will also be recorded and posted on YouTube afterward. By attending this meeting, you agree to allow us to use any recordings of yourself for later use and to be posted in public forums such as YouTube and Reddit.
+

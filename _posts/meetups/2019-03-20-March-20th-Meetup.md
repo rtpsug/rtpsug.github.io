@@ -2,7 +2,7 @@
 layout: post
 category : meetups
 tagline: Automating AD Health Checks
-tags : [bootstrap 4, web design, jekyll]
+tags : [PowerShell, Active Directory, Tools, Administration]
 img : meetups/2019-03-20.jpg
 img-mobile : 
 img2 : 
@@ -13,7 +13,7 @@ title3 :
 css: 
 js: 
 bgcolor: ff5a71
-keywords: helium, web design, css, html, bootstrap 4
+keywords: PowerShell, Active Directory, Tools, Administration
 canonical: https://fullit.github.io
 ---
 {% include JB/setup %}
@@ -29,3 +29,4 @@ Our speaker for this session is Mike Kanakos, who is a senior sysadmin & AD engi
 Mike wanted to fill in the gaps that his monitoring tools weren't able to cover, so he started to write his own toolset to help keep an eye on some of the core components of Active Directory. This talk is designed to show how anyone can use simple scripts to make their own customized monitoring platform.
 
 This is a local meeting that will be held at the MetLife campus in Cary but we'll also have a virtual meeting option for people who can't attend in person. The meeting starts at 6:30 pm and the presentation will start at 7 pm. The first half hour is for members to socialize, eat and cover any announcements that are related to our group. The link for this meeting will be posted the day of the meeting to people who have RSVP'ed yes to this event.
+

@@ -2,7 +2,7 @@
 layout: post
 category : meetups
 tagline: Learn to Search like a "Boss" with PowerShell!
-tags : [bootstrap 4, web design, jekyll]
+tags : [PowerShell, EventLogs, VSCode]
 img : meetups/2019-01-16.jpg
 img-mobile : 
 img2 : 
@@ -13,7 +13,7 @@ title3 :
 css: 
 js: 
 bgcolor: ff5a71
-keywords: helium, web design, css, html, bootstrap 4
+keywords: PowerShell, EventLogs, VSCode
 canonical: https://fullit.github.io
 ---
 {% include JB/setup %}
@@ -32,3 +32,4 @@ In this talk, Phil shows you how to search the Windows event logs with efficienc
 | Title | Name | YouTube |
 | ----- | ---- | ------- |
 | Eventlogs: Learn to Search like a "Boss" with PowerShell! | [Phil Bossman](http://schlauge.com/) | [Link to Video](https://www.youtube.com/watch?v=vhhXipqC6Do) |
+

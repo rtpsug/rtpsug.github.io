@@ -2,7 +2,7 @@
 layout: post
 category : usergroup
 tagline: Write-Output "Hello world!"
-tags : [bootstrap 4, web design, jekyll]
+tags : [UserGroup, News]
 img : 
 img-mobile : 
 img2 : 
@@ -13,9 +13,10 @@ title3 :
 css: 
 js: 
 bgcolor: ff5a71
-keywords: helium, web design, css, html, bootstrap 4
+keywords: UserGroup, News
 canonical: https://fullit.github.io
 ---
 {% include JB/setup %}
 
-Coming soon...
+Coming soon... 
+

@@ -2,7 +2,7 @@
 layout: post
 category : meetups
 tagline: "Setting up a Git Repo and making your first commits"
-tags : [bootstrap 4, web design, jekyll]
+tags : [PowerShell, PowerShell Development, Git, Tools]
 img : meetups/2020-01-15.jpg
 img-mobile : 
 img2 : 
@@ -18,7 +18,7 @@ canonical: https://fullit.github.io
 ---
 {% include JB/setup %}
 
-If you have played with code at all you have probably heard about git. But what if you have no idea what git is or how to get started? This session is for you...
+If you have played with code at all you have probably heard about git. But what if you have no idea what git is or how to get started? This session is for you... 
 
 Join Phil Bossman and the rest of the RTPSUG leaders as we host the first of two hands-on, interactive git learning sessions. You will participate in follow-along demos to create and commit to your first repo. The RTPSUG leaders will help you master your first steps in git with one-on-one help.
 
@@ -30,11 +30,11 @@ Phil will lead a learning session that will cover the core commands of git. Lear
 
 At the end of this session, we'll send you home with the basic git skills in place so you can practice all month and then come back in February for part 2 of our git series which will focus on using git in group/public scenario.
 
-...and if you are attending via the remote link…
+... and if you are attending via the remote link…
 
 We have lined up some well-known community members to help our online folks. So come blow up some git repos with us and learn the right way to do git!
 
-...and yes, you can do this...
+... and yes, you can do this... 
 
 Want to know what time this meeting is in your time zone?
 https://everytimezone.com/s/2aad4313
@@ -44,8 +44,11 @@ If you cannot join us in person, you can also join us online via WebEx. If you j
 By attending this meeting, you agree to allow us to use any recordings of yourself for later use in public forums such as YouTube and Reddit.
 
 ### Resources:
-- [The Six Commands You NEED To Know To Work With Git](https://thomasrayner.ca/first-git-commands/)
-- [GIT 101: “Git” up to speed on Git and source control](https://rtpsug.com/meetups/2019/03/06/March-6th-Meetup)
+
+* [The Six Commands You NEED To Know To Work With Git](https://thomasrayner.ca/first-git-commands/)
+* [GIT 101: “Git” up to speed on Git and source control](https://rtpsug.com/meetups/2019/03/06/March-6th-Meetup)
 
 ### YouTube
-- [Link](https://youtu.be/IZHbX8PJRWM)
+
+* [Link](https://youtu.be/IZHbX8PJRWM)
+

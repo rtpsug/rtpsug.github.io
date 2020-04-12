@@ -2,7 +2,7 @@
 layout: post
 category : meetups
 tagline: "Pester: - Why You Should -Be Using Pester"
-tags : [bootstrap 4, web design, jekyll]
+tags : [PowerShell, Testing, Development, Pester, Unit Testing, Utilities]
 img : meetups/2019-04-17.jpg
 img-mobile : 
 img2 : 
@@ -13,7 +13,7 @@ title3 :
 css: 
 js: 
 bgcolor: ff5a71
-keywords: helium, web design, css, html, bootstrap 4
+keywords: PowerShell, Testing, Development, Pester, Unit Testing, Utilities
 canonical: https://fullit.github.io
 ---
 {% include JB/setup %}
@@ -33,3 +33,4 @@ This is a local meeting that will be held at the Metlife campus in Cary but we'l
 REMINDER FOR LOCAL ATTENDEES: You must bring identification with you!!! MetLife security will not allow anyone to enter the facility without ID.
 
 This event will be recorded and posted on YouTube afterward. By attending this meeting, you allow us to any recordings of yourself for later use and to be posted in public forums such as YouTune and Reddit.
+

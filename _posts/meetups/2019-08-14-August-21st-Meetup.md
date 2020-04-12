@@ -2,7 +2,7 @@
 layout: post
 category : meetups
 tagline: "Data to Dashboard in under an hour with Universal Dashboard!"
-tags : [bootstrap 4, web design, jekyll]
+tags : [PowerShell, PowerShell Development, VSCode, Universal Dashboard]
 img : meetups/2019-08-21.jpeg
 img-mobile : 
 img2 : 
@@ -13,7 +13,7 @@ title3 :
 css: 
 js: 
 bgcolor: ff5a71
-keywords: PowerShell, PowerShell Development, VSCode
+keywords: PowerShell, PowerShell Development, VSCode, Universal Dashboard
 canonical: https://fullit.github.io
 ---
 {% include JB/setup %}
@@ -29,8 +29,11 @@ Adam is the creator of the Universal Dashboard PowerShell module and he will be 
 This is a live-streamed event that will also be recorded and posted on YouTube afterward. By attending this meeting, you agree to allow us to use any recordings of yourself for later use and to be posted in public forums such as YouTube and Reddit.
 
 ### Resources:
-- Github: [Universal-Dashboard](https://github.com/ironmansoftware/universal-dashboard)
-- Adam Driscoll [@adamdriscoll](https://twitter.com/adamdriscoll)
+
+* Github: [Universal-Dashboard](https://github.com/ironmansoftware/universal-dashboard)
+* Adam Driscoll [@adamdriscoll](https://twitter.com/adamdriscoll)
 
 #### Presentation:
-- Video: [Youtube](https://youtu.be/6eOjRQi4vUU)
+
+* Video: [Youtube](https://youtu.be/6eOjRQi4vUU)
+

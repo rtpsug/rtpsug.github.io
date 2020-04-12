@@ -2,7 +2,7 @@
 layout: post
 category : meetups
 tagline: "Git: Committing code to someone else's repo"
-tags : [bootstrap 4, web design, jekyll]
+tags : [PowerShell, PowerShell Development, Git, Tools]
 img : meetups/2020-02-18.jpg
 img-mobile : 
 img2 : 

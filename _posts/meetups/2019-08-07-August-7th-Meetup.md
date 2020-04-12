@@ -2,7 +2,7 @@
 layout: post
 category : meetups
 tagline: "PowerShell Core: Who, What, Where, When, Why"
-tags : [bootstrap 4, web design, jekyll]
+tags : [PowerShell, PowerShell Core]
 img : meetups/2019-08-07.jpg
 img-mobile : 
 img2 : 
@@ -13,7 +13,7 @@ title3 :
 css: 
 js: 
 bgcolor: ff5a71
-keywords: PowerShell, PowerShell Development, VSCode
+keywords: PowerShell, PowerShell Core
 canonical: https://fullit.github.io
 ---
 {% include JB/setup %}
@@ -27,8 +27,11 @@ Join us for answers to these questions and others as we host a discussion on the
 He will walk us through the basic differences of PS and PSCore and outline where PowerShell is heading. Kevin will also be talking about how “PowerShell is complete” and all functionality updates are going into its open-source brother PowerShell Core and the next version of PowerShell. Last but not least, Kevin will also talk about how to install PowerShell Core and SSH on Windows as well as how to access endpoints with SSH.
 
 ### Resources:
-- Github: [https://github.com/KevinLaux](https://github.com/KevinLaux)
-- Kevin Laux [@RSRYchro](https://twitter.com/rsrychro)
+
+* Github: [https://github.com/KevinLaux](https://github.com/KevinLaux)
+* Kevin Laux [@RSRYchro](https://twitter.com/rsrychro)
 
 #### Presentation:
-- Video: [Youtube](https://youtu.be/0ZoC0BtgNNw)
+
+* Video: [Youtube](https://youtu.be/0ZoC0BtgNNw)
+

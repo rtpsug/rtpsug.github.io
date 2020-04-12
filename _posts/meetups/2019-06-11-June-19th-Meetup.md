@@ -2,7 +2,7 @@
 layout: post
 category : meetups
 tagline: "Lightning Talks - Community Code Sharing!"
-tags : [bootstrap 4, web design, jekyll]
+tags : [PowerShell, Lightning Talk, VSCode]
 img : meetups/2019-06-19.jpg
 img-mobile : 
 img2 : 
@@ -13,7 +13,7 @@ title3 :
 css: 
 js: 
 bgcolor: ff5a71
-keywords: PowerShell, PowerShell Lightning Talk, VSCode
+keywords: PowerShell, Lightning Talk, VSCode
 canonical: https://fullit.github.io
 ---
 {% include JB/setup %}
@@ -33,8 +33,10 @@ If your intention is to share some content, please reach out to Mike Kanakos or 
 This is a local meeting that will be held at the Metlife campus in Cary but we'll also have a virtual meeting/live stream option for people who cannot attend in person. The meeting starts at 6:30 pm and the presentation will begin at 7 pm. The first half hour is for members to socialize, eat and cover any announcements that are related to the group.
 
 ### NOTE - NO RECORDING
+
 Portions of this meeting will not be recorded, at the request of speakers, and the nature of the content.
 
 REMINDER FOR LOCAL ATTENDEES: You must bring identification with you!!! MetLife security will not allow anyone to enter the facility without ID.
 
-This event will be recorded and posted on YouTube. By attending this meeting, you agree to being recorded and allow the use of recordings and images taken at meetings on RTPSUG.com, youtube.com, meetup.com as well as other places on the internet and offline. 
+This event will be recorded and posted on YouTube. By attending this meeting, you agree to being recorded and allow the use of recordings and images taken at meetings on RTPSUG.com, youtube.com, meetup.com as well as other places on the internet and offline.
+

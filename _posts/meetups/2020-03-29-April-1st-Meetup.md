@@ -2,7 +2,7 @@
 layout: post
 category : meetups
 tagline: April Fools Day - PowerShell Tips, Tricks & Dad Jokes
-tags : [bootstrap 4, web design, jekyll]
+tags : [PowerShell, Core Concepts, Tips, Tricks, Dad Jokes, Gotchas]
 img : meetups/2020-04-01.jpg
 img-mobile : 
 img2 : 

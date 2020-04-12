@@ -2,7 +2,7 @@
 layout: post
 category : meetups
 tagline: "PSKoans: Learn PowerShell concepts using Pester!"
-tags : [bootstrap 4, web design, jekyll]
+tags : [PowerShell, Learning, Utilities]
 img : meetups/2019-05-01.jpg
 img-mobile : 
 img2 : 
@@ -13,7 +13,7 @@ title3 :
 css: 
 js: 
 bgcolor: ff5a71
-keywords: helium, web design, css, html, bootstrap 4
+keywords: PowerShell, Learning, Utilities
 canonical: https://fullit.github.io
 ---
 {% include JB/setup %}
@@ -33,9 +33,11 @@ The goal of the PowerShell koans is to teach you PowerShell by presenting you wi
 The koans start very simply to get you familiar with the basic concepts and progress towards more difficult. Teaching you multiple beginner, intermediate and advanced aspects of PowerShell in the process. If you are struggling to learn PowerShell concepts and syntax, then this is a must see event for you!
 
 ### Resources:
-- GitHub: [https://github.com/vexx32/PSKoans](https://github.com/vexx32/PSKoans)
-- PowerShell Gallery: [https://www.powershellgallery.com/packages/PSKoans/0.50.1](https://www.powershellgallery.com/packages/PSKoans/0.50.1)
+
+* GitHub: [https://github.com/vexx32/PSKoans](https://github.com/vexx32/PSKoans)
+* PowerShell Gallery: [https://www.powershellgallery.com/packages/PSKoans/0.50.1](https://www.powershellgallery.com/packages/PSKoans/0.50.1)
 
 #### Presentation:
-- Video: [https://youtu.be/ahYfLzqKDM0](https://youtu.be/ahYfLzqKDM0)
+
+* Video: [https://youtu.be/ahYfLzqKDM0](https://youtu.be/ahYfLzqKDM0)
 

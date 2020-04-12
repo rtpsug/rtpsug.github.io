@@ -2,7 +2,7 @@
 layout: post
 category : meetups
 tagline: "RepAdmin: A PowerSheller's Guide To AD Directory Services"
-tags : [bootstrap 4, web design, jekyll]
+tags : [PowerShell, Security, Active Directory]
 img : meetups/2019-09-09.jpg
 img-mobile : 
 img2 : 
@@ -13,7 +13,7 @@ title3 :
 css: 
 js: 
 bgcolor: ff5a71
-keywords: PowerShell, PowerShell Development, VSCode
+keywords: PowerShell, Security, Active Directory
 canonical: https://fullit.github.io
 ---
 {% include JB/setup %}
@@ -34,8 +34,11 @@ Be sure not to miss this event! If you work with Active Directory and its direct
 If you cannot join us in person, you can also join us online. This is a live-streamed event that will also be recorded and posted on YouTube afterward. By attending this meeting, you agree to allow us to use any recordings of yourself for later use and to be posted in public forums such as YouTube and Reddit.
 
 ### Resources:
-- Blog: [blog.iisreset.me](https://blog.iisreset.me/)
-- Mathias Jessen [@iisresetme](https://twitter.com/iisresetme)
+
+* Blog: [blog.iisreset.me](https://blog.iisreset.me/)
+* Mathias Jessen [@iisresetme](https://twitter.com/iisresetme)
 
 #### Presentation:
-- Video: Not Yet Available
+
+* Video: Not Yet Available
+

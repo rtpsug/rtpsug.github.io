@@ -2,7 +2,7 @@
 layout: post
 category : meetups
 tagline: "Chocolatey: From zero to software deployment hero in 60 minutes!"
-tags : [bootstrap 4, web design, jekyll]
+tags : [PowerShell, Application Deployment, Chocolatey, Tools]
 img : meetups/2019-05-15.jpg
 img-mobile : 
 img2 : 
@@ -13,7 +13,7 @@ title3 :
 css: 
 js: 
 bgcolor: ff5a71
-keywords: helium, web design, css, html, bootstrap 4
+keywords: PowerShell, Application Deployment, Chocolatey, Tools
 canonical: https://fullit.github.io
 ---
 {% include JB/setup %}
@@ -28,10 +28,11 @@ You'll see firsthand how you can get started deploying software with Chocolatey 
 
 This is a local meeting that will be held at the Metlife campus in Cary but we'll also have a virtual meeting/livestream option for people who cannot attend in person. The meeting starts at 6:30 pm and the presentation will begin at 7 pm. The first half hour is for members to socialize, eat and cover any announcements that are related to the group. The live-stream link for this meeting will be posted the day of the meeting to people who have RSVP'ed yes to this event.
 
-
 ### Resources:
-- Chocolatey: [https://chocolatey.org](https://chocolatey.org)
+
+* Chocolatey: [https://chocolatey.org](https://chocolatey.org)
 
 #### Presentation:
-- Video: 
+
+* Video: 
 

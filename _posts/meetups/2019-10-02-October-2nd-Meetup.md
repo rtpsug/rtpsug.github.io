@@ -2,7 +2,7 @@
 layout: post
 category : meetups
 tagline: "Career Development Talk!"
-tags : [bootstrap 4, web design, jekyll]
+tags : [PowerShell, PowerShell Development, Career Development, Personal Skills]
 img : meetups/2019-10-02.jpg
 img-mobile : 
 img2 : 
@@ -13,7 +13,7 @@ title3 :
 css: 
 js: 
 bgcolor: ff5a71
-keywords: PowerShell, PowerShell Development, VSCode
+keywords: PowerShell, PowerShell Development, Career Development, Personal Skills
 canonical: https://fullit.github.io
 ---
 {% include JB/setup %}
@@ -27,9 +27,12 @@ This month we'll be hosting a panel discussion with Michael Bender (PluralSight)
 But we don't just want you to come and watch this panel discussion! You're invited to ask questions that could help you figure out where you should focus your time and what are useful resources to help you get ahead! This is a unique opportunity to get direct answers YOUR career questions!
 
 ### Resources:
-- Julie Andreacola: [@jandreacola](https://twitter.com/jandreacola)
-- Fernando Tomlinson: [@Wired_Pulse](https://twitter.com/Wired_Pulse) [Blog](https://cyberfibers.com/)
-- Michael Bender: [@MichaelBender](https://twitter.com/MichaelBender) [Blog](https://www.itsallgeek2mike.com/)
+
+* Julie Andreacola: [@jandreacola](https://twitter.com/jandreacola)
+* Fernando Tomlinson: [@Wired_Pulse](https://twitter.com/Wired_Pulse) [Blog](https://cyberfibers.com/)
+* Michael Bender: [@MichaelBender](https://twitter.com/MichaelBender) [Blog](https://www.itsallgeek2mike.com/)
 
 #### Presentation:
-- Video: Not Yet Available
+
+* Video: Not Yet Available
+

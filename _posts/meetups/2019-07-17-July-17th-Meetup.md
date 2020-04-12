@@ -2,7 +2,7 @@
 layout: post
 category : meetups
 tagline: "Writing Code: Moving from admin scripter to PowerShell developer"
-tags : [bootstrap 4, web design, jekyll]
+tags : [PowerShell, PowerShell Development, VSCode, SysAdmin]
 img : meetups/2019-07-17.jpg
 img-mobile : 
 img2 : 
@@ -13,7 +13,7 @@ title3 :
 css: 
 js: 
 bgcolor: ff5a71
-keywords: PowerShell, PowerShell Development, VSCode
+keywords: PowerShell, PowerShell Development, VSCode, SysAdmin
 canonical: https://fullit.github.io
 ---
 {% include JB/setup %}
@@ -29,8 +29,11 @@ Brett will walk us through the process of taking those hoarded scripts from the 
 If you ever had questions about how the PowerShell pros are sharing their code with the public, then you need to join Brett for a peek at the process of how to make good code GREAT!
 
 ### Resources:
-- Blog: [https://millerb.co.uk](https://millerb.co.uk)
-- David Stein [@BrettMiller_IT](https://twitter.com/BrettMiller_IT)
+
+* Blog: [https://millerb.co.uk](https://millerb.co.uk)
+* David Stein [@BrettMiller_IT](https://twitter.com/BrettMiller_IT)
 
 #### Presentation:
-- Video: [Youtube](https://www.youtube.com/watch?v=mdVesigkE4I)
+
+* Video: [Youtube](https://www.youtube.com/watch?v=mdVesigkE4I)
+

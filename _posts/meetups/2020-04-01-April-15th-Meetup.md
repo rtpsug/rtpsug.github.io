@@ -2,7 +2,7 @@
 layout: post
 category : meetups
 tagline: Getting started with APIs
-tags : [bootstrap 4, web design, jekyll]
+tags : [PowerShell, Core Concepts, APIs]
 img : meetups/2020-04-15.jpg
 img-mobile : 
 img2 : 
@@ -13,7 +13,7 @@ title3 :
 css: 
 js: 
 bgcolor: ff5a71
-keywords: PowerShell, Core Concepts, API, APIs
+keywords: PowerShell, Core Concepts, APIs
 canonical: https://fullit.github.io
 ---
 {% include JB/setup %}
