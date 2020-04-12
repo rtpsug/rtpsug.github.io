@@ -1,13 +1,13 @@
 <div class="no-gutters">
-  <h3 class="list-title">Meetings</h3>
+  <h3 class="list-title">Tags</h3>
   <ul class="list-style arrow-list arrow-list-three pl-0">
-    {% for post in site.categories.meetups %}
-    {% if post.url != page.url %}
-    <li>
-      <i class="fa fa-arrow-right grey" aria-hidden="true"></i>
-      <a class="" href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-    </li>
-    {% endif %}
+    {% assign tags = site.tags | sort %}
+    {% for tag in tags %}
+    <span class="site-tag">
+      <a href="/tags.html#{{ tag[0] }}-ref" style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">
+        {{ tag[0] | replace:'-', ' ' }}
+      </a>
+    </span>
     {% endfor %}
   </ul>
 </div>
