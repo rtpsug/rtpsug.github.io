@@ -8,7 +8,7 @@ on:
 
 jobs:
   job-1:
-    runs-on: ubunut-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: hello "hello world"
