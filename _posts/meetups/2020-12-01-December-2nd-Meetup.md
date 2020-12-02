@@ -20,7 +20,7 @@ canonical: https://fullit.github.io
 
 Ansible is an amazingly flexible tool to manage your infrastructure. Jeremy Murrah [@JeremyMurrah](https://twitter.com/JeremyMurrah) will be showing how you can get started using ansible to manage Windows Servers and treat your servers as "cattle" and not "pets".
 
-<!-- more -->
+<!--more-->
 
 If you have never touched Ansible, fear not, because this is an intro that will cover how to get started and what are the important pieces to understand. Jeremy will show off the basic features, how they work and then highlight some useful modules to extend Ansible even further.
 
