@@ -23,8 +23,8 @@ canonical: https://fullit.github.io
 ### Intro
 
 This past week I was tasked with finding duplicate links across nested OUs within the org.
-The suspicion was there was a lot of GPOs linked repeatedly that could have been linked once at a higher level.
-I thought I might make a quick post to talk about how I solved that.
+The suspicion was there were a lot of GPOs linked repeatedly that could have been linked once at a higher level.
+I thought I might make a quick post to talk about how I got the information.
 Along the way we can learn a little about Active Directory and GPOs.
 
 ### What is a GPO
@@ -33,8 +33,8 @@ GPOs, otherwise known as Group Policy Objects, apply desired state to domain joi
 Each Group policy consists of a Group Policy Object and Group Policy Template.
 Every Group Policy you make can apply to a user, computer, or both.
 When a GPO is made the template contains a '.POL' file that imposes the desired state.
-This file is deployed from SYSVOL.
-To go along with the template there is an object that exists within the Active Directory database.
+The .POL file is deployed from SYSVOL.
+To go along with the template, there is an object that exists within the Active Directory database.
 The object maintains consistency with everywhere the Group Policy is linked.
 That means if I have one Group Policy linked to 3 different OUs in the domain, I have one template and three references to that Group Policy Object.
 
