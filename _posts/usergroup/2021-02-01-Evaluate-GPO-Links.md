@@ -22,7 +22,7 @@ canonical: https://fullit.github.io
 
 ### Intro
 
-This past week I needed to find duplicate links across nested OUs within the org.
+This past week I needed to find duplicate links across nested OUs within my org.
 The suspicion was there were a lot of GPOs linked repeatedly that could have been linked once at a higher level.
 I thought I might make a quick post to talk about how I got the information.
 Along the way, we can learn a little about Active Directory and GPOs.
