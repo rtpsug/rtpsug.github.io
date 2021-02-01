@@ -8,7 +8,7 @@ img-mobile :
 img2 : 
 img3 : 
 author : Jeremy Brown
-title : Title - Evaluating GPO Links
+title : Guest Post - Evaluating GPO Links
 title3 : 
 css: 
 js: 
@@ -18,7 +18,8 @@ canonical: https://fullit.github.io
 ---
 {% include JB/setup %}
 
-## Jeremy Brown
+##### Author:
+[Jeremy Brown](https://twitter.com/Banana_Jama)
 
 ### Intro
 
