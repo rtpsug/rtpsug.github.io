@@ -89,11 +89,15 @@ function GetGpoGuids {
 In this function, we can take the list of Group Policy links and retrieve just the GUID for that GPO.
 Since the `LinkedGroupPolicyObjects` attribute is going to contain a list of items that look something like this:
 
-```cn={316E23FF-9546-46BB-AB06-729FF2058E36},cn=policies,cn=system,DC=your,DC=domain,DC=com```
+```
+cn={316E23FF-9546-46BB-AB06-729FF2058E36},cn=policies,cn=system,DC=your,DC=domain,DC=com
+```
 
 This code will use the regex to strip away everything but the GUID inside the curly braces and return only that as a value.
 
-```316E23FF-9546-46BB-AB06-729FF2058E36```
+```
+316E23FF-9546-46BB-AB06-729FF2058E36 
+```
 
 Furthermore, since an OU may have more than one Group Policy linked to it, the attribute may have more more than 1 Group Policy link referenced.
 We can just pass all the values in the list, whether that's 0 or 100, through a `foreach` loop and output all the GUIDs.
