@@ -26,6 +26,9 @@ Join Devin as he talks about challenges that he faced while turning group policy
 
 [Devin](https://gitlab.com/users/devirich/projects) is a 10 year professional in the IT industry. He primarily works with automation, networking, and security in the financial services sector. He got his start in IT as a 15-yr old at his high school where he ran/terminated Ethernet cables and administered the school WiFi. This experience in high school led him to get a B.S. in Information Technology - Network Administration. He and his wife live in Utah and have 4 children. Most recently, he has been playing around with NoSql in Azure Cosmos DB.
 
+Attend Meeting:
+Sign up using [Meetup](https://www.meetup.com/Research-Triangle-PowerShell-Users-Group/events/281942249)
+
 About RTPSUG:
 We're a group of PowerShell pros from all walks of life who love to share ideas with fellow community members. Our meetings are open to anyone who would like to talk about and learn more about how to PowerShell!
 
