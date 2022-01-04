@@ -18,7 +18,7 @@ canonical: https://fullit.github.io
 ---
 {% include JB/setup %}
 
-This presentation, we welcome Anthony Howell @ThePoshWolf. Anthony will showcase the usage of the free community version of Runway Automation Platform
+This presentation, we welcome [Anthony Howell](https://theposhwolf.com/) [@ThePoshWolf](https://twitter.com/theposhwolf). Anthony will showcase the usage of the free community version of [Runway Automation Platform](https://www.runway.host/)
 
 Join Anthony as he talks about Runway and focus on the cool parts of scripting with Runway. They are looking for testers, so get ready.
 
