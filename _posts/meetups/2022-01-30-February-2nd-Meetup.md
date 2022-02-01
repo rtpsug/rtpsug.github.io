@@ -3,7 +3,7 @@ layout: post
 category : meetups
 tagline: "What's new in PowerShell v7.2? (Jeff Hicks)"
 tags : [Powershell PWSH, Powershell ANSI Colors, PowerShell ANSI Terminal]
-img : meetups/2022-02-02.png
+img : meetups/2022-02-02.jpg
 img-mobile : 
 img2 : 
 img3 : 
