@@ -38,15 +38,9 @@ This session is equally geared for PowerShell novices who have never worked with
 Devin Rich is an 10 year IT pro who specializes in automation, networking, and security in the financial services sector. He got his start in IT as a 15-yr old at his high school where he ran/terminated Ethernet cables and administered the school WiFi.
 
 
-Recording Notice:
+## Recording Notice:
 
 We record all of our meetings and place the recordings on our YouTube channel a few days after our meetings. By attending this meeting, you agree to allow us to use any recordings of yourself for later use and posted in public forums such as YouTube and Reddit.
-
-If you have never touched Ansible, fear not, because this is an intro that will cover how to get started and what are the important pieces to understand. Jeremy will show off the basic features, how they work and then highlight some useful modules to extend Ansible even further.
-
-Since Ansible is a cross platform tool. Jeremy will also cover using Ansible in PowerShell for Windows and Linux. We'll wrap it all up with a look at how to use ansible with DSC and how to get started writing your own custom Ansible modules.
-
-Should be fun and great opportunity to learn some new tools to help get the work done better, faster and easier!
 
 Want to know what time this meeting is in your [time zone](https://meeting.rtpsug.com/timezoneinfo)?
 
