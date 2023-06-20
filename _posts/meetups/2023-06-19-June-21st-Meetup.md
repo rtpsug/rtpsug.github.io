@@ -2,7 +2,7 @@
 layout: post
 category : meetups
 tagline: 5 Resume Mistakes that Cost You Money (Monica Albuerne)
-tags : ["Resume", "Cover Letters", "Interview Help", "Career Coaching", "Resume Writing", "Data Center and Operations Automation", "PowerShell"]
+tags : [Resume - Cover Letters - Interview Help, Career Coaching, Resume Writing, Data Center and Operations Automation, PowerShell]
 img : meetups/2023-06-21.jpg
 img-mobile : 
 img2 : 
@@ -13,7 +13,7 @@ title3 :
 css: 
 js: 
 bgcolor: ff5a71
-keywords: "Resume", "Cover Letters", "Interview Help", "Career Coaching", "Resume Writing", "Data Center and Operations Automation", "PowerShell"
+keywords: Resume - Cover Letters - Interview Help, Career Coaching, Resume Writing, Data Center and Operations Automation, PowerShell
 canonical: https://fullit.github.io
 ---
 {% include JB/setup %}
@@ -40,13 +40,13 @@ Currently serving as a highly accomplished account manager at TEK Systems in Ral
 
 ## Meeting Attendance Info:
 
-If you are attending in-person, you need to visit (https://meeting.rtpsug.com/visitorlist)[https://meeting.rtpsug.com/visitorlist] and add your name to the onsite visitor guest list.
+If you are attending in-person, you need to visit [https://meeting.rtpsug.com/visitorlist](https://meeting.rtpsug.com/visitorlist) and add your name to the onsite visitor guest list.
 
-If you are attending via Remote, please use (https://meeting.rtpsug.com/)[https://meeting.rtpsug.com/] to join the meeting using Microsoft Teams. You can download the MS Teams client from (https://www.microsoft.com/en-us/microsoft-teams/download-app)[https://www.microsoft.com/en-us/microsoft-teams/download-app]
+If you are attending via Remote, please use [https://meeting.rtpsug.com/](https://meeting.rtpsug.com/) to join the meeting using Microsoft Teams. You can download the MS Teams client from [https://www.microsoft.com/en-us/microsoft-teams/download-app](https://www.microsoft.com/en-us/microsoft-teams/download-app)
 
 Want to know what time this meeting is in your time zone?
 
-(https://meeting.rtpsug.com/timezoneinfo)[https://meeting.rtpsug.com/timezoneinfo]
+[https://meeting.rtpsug.com/timezoneinfo](https://meeting.rtpsug.com/timezoneinfo)
 
 ## About RTPSUG:
 
