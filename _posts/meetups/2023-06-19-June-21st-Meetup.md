@@ -2,7 +2,7 @@
 layout: post
 category : meetups
 tagline: 5 Resume Mistakes that Cost You Money (Monica Albuerne)
-tags : ["Resume, Cover Letters, Interview Help", "Career Coaching", "Resume Writing", "Data Center and Operations Automation", "PowerShell"]
+tags : ["Resume", "Cover Letters", "Interview Help", "Career Coaching", "Resume Writing", "Data Center and Operations Automation", "PowerShell"]
 img : meetups/2023-06-23.jpg
 img-mobile : 
 img2 : 
@@ -13,7 +13,7 @@ title3 :
 css: 
 js: 
 bgcolor: ff5a71
-keywords: "Resume, Cover Letters, Interview Help", "Career Coaching", "Resume Writing", "Data Center and Operations Automation", "PowerShell"
+keywords: "Resume", "Cover Letters", "Interview Help", "Career Coaching", "Resume Writing", "Data Center and Operations Automation", "PowerShell"
 canonical: https://fullit.github.io
 ---
 {% include JB/setup %}
