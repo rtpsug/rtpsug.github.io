@@ -3,7 +3,7 @@ layout: post
 category : meetups
 tagline: 5 Resume Mistakes that Cost You Money (Monica Albuerne)
 tags : ["Resume", "Cover Letters", "Interview Help", "Career Coaching", "Resume Writing", "Data Center and Operations Automation", "PowerShell"]
-img : meetups/2023-06-23.jpg
+img : meetups/2023-06-21.jpg
 img-mobile : 
 img2 : 
 img3 : 
