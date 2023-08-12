@@ -25,12 +25,6 @@ Becoming a seasoned PowerShell professional is not an overnight achievement. Lea
 
 This is a hybrid event. You can attend in-person or online via Microsoft Teams. Please see Meeting Attendance Info section below for important details for attending in-person and how to connect if you are attending from home / remote location.
 
-Meeting Description:
-
-
-Speaker Info:
-
-
 ## Meeting Description:
 
 Join us for an engaging discussion about becoming a pro at PowerShell. It's no quick journey – it involves training, planning, practice, setbacks, and dedication. In this session, we'll draw parallels between mastering PowerShell and training for a marathon.
@@ -42,8 +36,6 @@ We all want to level up our skills, but it's not always clear how to proceed. St
 Steven Judd is a seasoned IT Pro with over 25 years of experience. With a background in DevOps and cloud solutions, he's been using PowerShell since 2010. He's even co-developed a specialized PowerShell training program.
 
 Passionate about helping others embrace automation's value, Steven spends his free time exploring PowerShell, digital security, cloud tech, and cracking Dad jokes (watch his (video)[https://www.youtube.com/watch?v=BZZM6i8AE1Y]). He can be found on the (PowerShell Discord Server)[https://aka.ms/psdiscord], running marathons, playing the cello, and diving into various hobbies. Catch up with him on Twitter (@stevenjudd)[https://twitter.com/stevenjudd/], explore his insights on his blog, and contribute to his code on GitHub.
-
-**BONUS:** Join us in person and bring your resume for personalized advice! TEK Systems will be reviewing the resumes of all local attendees, providing valuable recommendations on how to make yourself stand out from your peers. This is an exceptional opportunity to receive specific insights tailored to your resume and gain an edge in the competitive job market.
 
 ## Meeting Attendance Info:
 
