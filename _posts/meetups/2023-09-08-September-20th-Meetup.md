@@ -19,7 +19,7 @@ canonical: https://fullit.github.io
 ---
 {% include JB/setup %}
 
-Creating and managing a blog can be a formidable task, demanding substantial time and effort. However, the adoption of (#PowerShell)[https://twitter.com/search?q=%23powershell] and automation offers a great solution to this challenge.
+Creating and managing a blog can be a formidable task, demanding substantial time and effort. However, the adoption of [#PowerShell](https://twitter.com/search?q=%23powershell) and automation offers a great solution to this challenge.
 
 <!--more-->
 
