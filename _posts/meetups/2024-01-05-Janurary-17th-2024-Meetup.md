@@ -37,12 +37,6 @@ With 15 years of IT experience under his belt, and 6 years dedicated to masterin
 
 Officially, Stevie holds the title of support manager at [Chocolatey software](https://chocolatey.org/), but that doesn't capture his true essence. He's an absolute wizard when it comes to automation. You'll find him buzzing around the PowerShell community, proudly waving his fanboy flag. Even with all his success, Stevie is a great teacher and motivator and he always willing to help others learn more about PowerShell.
 
-## Meeting Attendance Info:
-
-- If you are attending in-person, you need to visit [https://meeting.rtpsug.com/visitorlist](https://meeting.rtpsug.com/visitorlist) and add your name to the onsite visitor guest list.
-
-- If you are attending via Remote, please use [https://meeting.rtpsug.com/](https://meeting.rtpsug.com/) to join the meeting using Microsoft Teams. You can download the MS Teams client from [https://www.microsoft.com/en-us/microsoft-teams/download-app](https://www.microsoft.com/en-us/microsoft-teams/download-app)
-
 ## Want to know what time this meeting is in your time zone?
 
 [https://meeting.rtpsug.com/timezoneinfo](https://meeting.rtpsug.com/timezoneinfo)
