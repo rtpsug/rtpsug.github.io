@@ -3,7 +3,7 @@ layout: post
 category : meetups
 tagline: "Discover Data using SNMP and PowerShell (Stephen Valdinger)"
 tags : [Configuration Management, Data Center and Operations Automation, PowerShell, Computer Networking, System Administration]
-img : meetups/2024-01-17.jpg
+img : meetups/2024-01-17.png
 img-mobile : 
 img2 : 
 img3 : 
