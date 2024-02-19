@@ -19,15 +19,13 @@ canonical: https://fullit.github.io
 ---
 {% include JB/setup %}
 
-PowerShell has got a great ecosystem. If PowerShell can play nice with everyone, that ecosystem would grow exponentially. PipeScript is a language built in PowerShell that lets PowerShell play nice with everything. Drop in to learn how to run anything with PipeScript, and to see what that can mean for PowerShell.
+Join James Brundage and discover how to unleash the full potential of PowerShell with PipeScript!
 
 <!--more-->
 
 ## Meeting Description:
 
-Introducing PipeScript - the game-changing language built on PowerShell
-
-🎉 Be a part of this transformative experience and learn to run anything with PipeScript, as we showcase its game-changing impact on PowerShell's capabilities. Don't miss out on the chance to elevate your scripting game to new heights!
+In this video, we'll explore how PipeScript revolutionizes PowerShell's capabilities, allowing you to seamlessly run a wide range of languages and files. From Python to JavaScript, Go, HTML, CSharp, and beyond - no language is off-limits with PipeScript. Don't miss out on this game-changing opportunity to expand your PowerShell skills and run anything with ease!
 
 ## Speaker Info:
 
