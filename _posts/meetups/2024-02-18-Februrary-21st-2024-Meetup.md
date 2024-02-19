@@ -41,6 +41,10 @@ Kevin Laux has worn many hats over the years: Windows Deployment Specialist, Des
 He is passionate about PowerShell and has been conducting training classes for his colleagues since the release of PowerShell v3. Kevin also co-leads the Research Triangle PowerShell User Group. Apart from PowerShell, he constantly experiments with new technology in his home lab and strives to learn as much as possible. You can follow him on Twitter, [@rsrychro](https://twitter.com/rsrychro), and [GitHub](https://github.com/KevinLaux).
 
 
+## Join Us:
+
+Join us [online or in person](link:
+https://www.meetup.com/research-triangle-powershell-users-group/events/298769133). 
 
 ## TimeZone Info:
 
