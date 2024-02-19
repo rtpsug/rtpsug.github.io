@@ -43,8 +43,7 @@ He is passionate about PowerShell and has been conducting training classes for h
 
 ## Join Us:
 
-Join us [online or in person](link:
-https://www.meetup.com/research-triangle-powershell-users-group/events/298769133). 
+Join us [online or in person](https://www.meetup.com/research-triangle-powershell-users-group/events/298769133). 
 
 ## TimeZone Info:
 
