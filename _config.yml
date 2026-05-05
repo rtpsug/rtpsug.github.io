@@ -161,3 +161,10 @@ collections :
     output: false
   speakers :
     output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      css: post.css
