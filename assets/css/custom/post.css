@@ -17,9 +17,12 @@
   --pp-gray-400:    #9ca3af;
   --pp-gray-500:    #6b7280;
   --pp-gray-900:    #111827;
-  --pp-shadow-sm:   0 1px 3px rgba(0,0,0,.07);
+  --pp-shadow-sm:   0 1px 3px rgba(0,0,0,.07), 0 1px 2px rgba(0,0,0,.04);
   --pp-shadow:      0 4px 12px rgba(0,0,0,.09);
   --pp-radius:      10px;
+  --pp-navy-hover:  #01306e;
+  --pp-blue-hover:  #005fa3;
+  --pp-green-hover: #15803d;
 }
 
 body { background: var(--pp-bg) !important; }
@@ -144,7 +147,7 @@ body { background: var(--pp-bg) !important; }
   transition: background .15s;
 }
 
-.pp-rsvp:hover { background: #15803d; color: #fff !important; }
+.pp-rsvp:hover { background: var(--pp-green-hover); color: #fff !important; }
 
 /* ── RECORDING STRIP ── */
 .pp-recording {
@@ -203,7 +206,7 @@ body { background: var(--pp-bg) !important; }
   transition: background .15s;
 }
 
-.pp-watch-btn:hover { background: #005fa3; color: #fff !important; }
+.pp-watch-btn:hover { background: var(--pp-blue-hover); color: #fff !important; }
 
 /* ── POST CONTENT ── */
 .pp-content {
@@ -432,9 +435,9 @@ body { background: var(--pp-bg) !important; }
 }
 
 .pp-footer-btn--primary:hover {
-  background: #01306e;
+  background: var(--pp-navy-hover);
   color: #fff !important;
-  border-color: #01306e;
+  border-color: var(--pp-navy-hover);
 }
 
 .pp-footer-back {
