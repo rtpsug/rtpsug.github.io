@@ -29,7 +29,7 @@
     {% endif %}
     <h1 class="pp-hero-title">{{ page.tagline | default: page.title }}</h1>
     <div class="pp-meta">
-      <span class="pp-meta-pill">&#128197; {{ page.date | date: "%A, %B %-d, %Y" }}</span>
+      <span class="pp-meta-pill">&#128197; {{ page.date | date: "%A, %B %e, %Y" | strip }}</span>
       <span class="pp-meta-pill">&#128348; 7:00 PM Eastern</span>
       <span class="pp-meta-pill">&#128187; Online via Meetup</span>
     </div>
