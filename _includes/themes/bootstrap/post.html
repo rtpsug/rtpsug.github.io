@@ -17,7 +17,7 @@
 {% endunless %}
 
 {% comment %} ── More meetings (3 past posts, excluding current) ── {% endcomment %}
-{% assign more_posts = site.posts | where_exp: "p", "p.status != 'upcoming' and p.url != page.url" | limit: 3 %}
+{% assign more_posts = site.posts | where_exp: "p", "p.status != 'upcoming'" | limit: 4 %}
 
 <!-- POST HERO -->
 <section class="pp-hero">
@@ -92,7 +92,11 @@
     <div class="pp-more">
       <div class="pp-more-label">More Meetings</div>
       <div class="pp-more-grid">
+        {% assign shown_count = 0 %}
         {% for post in more_posts %}
+        {% if post.url == page.url %}{% continue %}{% endif %}
+        {% if shown_count >= 3 %}{% break %}{% endif %}
+        {% assign shown_count = shown_count | plus: 1 %}
         <div class="pp-more-card">
           <div class="pp-more-date">{{ post.date | date: "%Y-%m-%d" }}</div>
           <h3 class="pp-more-title">

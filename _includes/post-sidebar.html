@@ -1,4 +1,10 @@
-{% assign recent_posts = site.posts | where_exp: "p", "p.status != 'upcoming' and p.url != page.url" | limit: 3 %}
+{% assign _all_recent = site.posts | where_exp: "p", "p.status != 'upcoming'" | limit: 4 %}
+{% assign recent_posts = "" | split: "" %}
+{% for p in _all_recent %}
+  {% if p.url == page.url %}{% continue %}{% endif %}
+  {% if recent_posts.size >= 3 %}{% break %}{% endif %}
+  {% assign recent_posts = recent_posts | push: p %}
+{% endfor %}
 
 <div class="pp-sidebar-card">
   <div class="pp-sidebar-title">Recent Meetings</div>
