@@ -1,0 +1,20 @@
+{% assign recent_posts = site.posts | where_exp: "p", "p.status != 'upcoming' and p.url != page.url" | limit: 3 %}
+
+<div class="pp-sidebar-card">
+  <div class="pp-sidebar-title">Recent Meetings</div>
+  {% for post in recent_posts %}
+  <div class="pp-sidebar-item">
+    <div class="pp-sidebar-date">{{ post.date | date: "%Y-%m-%d" }}</div>
+    <a href="{{ post.url }}" class="pp-sidebar-link">{{ post.tagline | default: post.title }}</a>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="pp-sidebar-card">
+  <div class="pp-sidebar-title">Tags</div>
+  <div class="pp-tag-cloud">
+    {% for tag in page.tags %}
+    <a href="/tags.html#{{ tag | slugify }}-ref" class="pp-tag-chip">{{ tag }}</a>
+    {% endfor %}
+  </div>
+</div>
