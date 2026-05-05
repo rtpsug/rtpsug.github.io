@@ -1,45 +1,127 @@
-<!-- Post header -->
-      <div class="header-style-2">
-        <div class="container">
-          <div class="row align-items-start">
-            <div class="col-xs-12 col-sm-6">
-              <div class="hero-content-v2" style="margin-top:10px!important;">
-                <h3><strong>{{ page.title }}</strong></h3>
-                {% if page.tagline %}
-                  <p>{{ page.tagline }}</p>
-                {% endif %}
-                <a href="#post" class="page-scroll btn btn-lg btn-default-filled">Read Post</a>
-                <div class="mb-60"></div>                      
-              </div>
+<link rel="stylesheet" type="text/css" href="{{ BASE_PATH }}/assets/css/custom/post.css" />
+
+{% include JB/setup %}
+
+{% comment %} ── Recording resolution ── {% endcomment %}
+{% assign recording_url = page.recording_url %}
+{% assign recording_title = "" %}
+{% unless recording_url %}
+  {% assign post_date_str = page.date | date: "%Y-%m-%d" %}
+  {% assign matched_rec = site.data.recordings | where: "date", post_date_str | first %}
+  {% if matched_rec %}
+    {% assign recording_url = matched_rec.url %}
+    {% assign recording_title = matched_rec.title %}
+  {% endif %}
+{% else %}
+  {% assign recording_title = page.tagline | default: page.title %}
+{% endunless %}
+
+{% comment %} ── More meetings (3 past posts, excluding current) ── {% endcomment %}
+{% assign more_posts = site.posts | where_exp: "p", "p.status != 'upcoming' and p.url != page.url" | limit: 3 %}
+
+<!-- POST HERO -->
+<section class="pp-hero">
+  <div class="pp-container">
+    {% if page.status == "upcoming" %}
+    <span class="pp-badge pp-badge--upcoming">Next Meeting</span>
+    {% else %}
+    <span class="pp-badge pp-badge--past">Past Meeting</span>
+    {% endif %}
+    <h1 class="pp-hero-title">{{ page.tagline | default: page.title }}</h1>
+    <div class="pp-meta">
+      <span class="pp-meta-pill">&#128197; {{ page.date | date: "%A, %B %-d, %Y" }}</span>
+      <span class="pp-meta-pill">&#128348; 7:00 PM Eastern</span>
+      <span class="pp-meta-pill">&#128187; Online via Meetup</span>
+    </div>
+    {% if page.tags %}
+    <div class="pp-hero-tags">
+      {% for tag in page.tags limit: 4 %}
+      <span class="pp-hero-tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</section>
+
+<!-- BODY -->
+<div class="pp-body">
+  <div class="pp-container">
+    <div class="pp-grid">
+
+      <!-- MAIN CONTENT -->
+      <div class="pp-main">
+        {% if page.status == "upcoming" %}
+        {% assign rsvp_href = page.meetup_url | default: "https://www.meetup.com/research-triangle-powershell-users-group/" %}
+        <a href="{{ rsvp_href }}"
+           class="pp-rsvp" target="_blank" rel="noopener">&#128197; RSVP Free on Meetup &rarr;</a>
+        {% else %}
+          {% if recording_url %}
+          <div class="pp-recording">
+            <span class="pp-rec-play">&#9654;</span>
+            <div class="pp-rec-body">
+              <div class="pp-rec-label">Recording available</div>
+              <div class="pp-rec-title">{{ recording_title | default: page.tagline | default: page.title }}</div>
             </div>
-            <div class="col-xs-12 col-sm-6">
-              {% if page.img %}
-              <figure>
-                <img src="{{ BASE_PATH }}/assets/images/{{ page.img }}" alt="">
-              </figure>
-              {% endif %}
+            <a href="{{ recording_url }}" class="pp-watch-btn" target="_blank" rel="noopener">Watch on YouTube &rarr;</a>
+          </div>
+          {% else %}
+          <div class="pp-recording pp-recording--none">
+            <span class="pp-rec-play pp-rec-play--none">&#9654;</span>
+            <div class="pp-rec-body">
+              <div class="pp-rec-label">Recording</div>
+              <div class="pp-rec-title">Recording not available</div>
             </div>
           </div>
+          {% endif %}
+        {% endif %}
+
+        <div class="pp-content">
+          {{ content }}
         </div>
       </div>
-<!-- Post content+sidebar -->
-<div class="mb-60"></div>
-  <!-- Blog content + sidebar -->
-  <section id="post" class="blog">
-    <div class="container">
-      <div class="row align-items-start">
-        <div class="col-sm-12 col-md-9">
-          {% include ads-block.html %}
-          <div class="mb-60"></div>
-           {{ content }}
-          <div class="mb-60"></div>
-          {% include ads-block.html %}
-          <div class="mb-60"></div> 
-          {% include JB/comments %}                    
-        </div>                    
-        <div class="col-sm-12 col-md-3">
-          {% include side-bar.html %}
-        </div>
+
+      <!-- SIDEBAR -->
+      <div class="pp-sidebar">
+        {% include post-sidebar.html %}
       </div>
-     </div>
-   </section>
+
+    </div><!-- /pp-grid -->
+
+    <!-- MORE MEETINGS -->
+    {% if more_posts.size > 0 %}
+    <div class="pp-more">
+      <div class="pp-more-label">More Meetings</div>
+      <div class="pp-more-grid">
+        {% for post in more_posts %}
+        <div class="pp-more-card">
+          <div class="pp-more-date">{{ post.date | date: "%Y-%m-%d" }}</div>
+          <h3 class="pp-more-title">
+            <a href="{{ post.url }}">{{ post.tagline | default: post.title }}</a>
+          </h3>
+          <p class="pp-more-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+          <a href="{{ post.url }}" class="pp-more-link">Read more &rarr;</a>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+
+  </div><!-- /pp-container -->
+</div><!-- /pp-body -->
+
+<!-- POST FOOTER -->
+<div class="pp-footer">
+  <div class="pp-container">
+    <div class="pp-footer-inner">
+      <div class="pp-footer-nav">
+        {% if page.previous %}
+        <a href="{{ page.previous.url }}" class="pp-footer-btn">&larr; Previous Meeting</a>
+        {% endif %}
+        {% if page.next %}
+        <a href="{{ page.next.url }}" class="pp-footer-btn pp-footer-btn--primary">Next Meeting &rarr;</a>
+        {% endif %}
+      </div>
+      <a href="/blog" class="pp-footer-back">Back to all meetings</a>
+    </div>
+  </div>
+</div>
