@@ -2,7 +2,7 @@
 layout: index
 title: Research Triangle PowerShell User Group
 tagline: Research Triangle PowerShell User Group
-css:
+css: homepage.css
 js: sliders.js
 author : rtpsug
 creator : rtpsug
@@ -12,31 +12,121 @@ keywords: user group, powershell
 canonical: https://rtpsug.com
 ---
 {% include JB/setup %}
-<!-- Content Area Start -->
+{% assign upcoming = site.posts | where: "status", "upcoming" | first %}
+{% assign past_posts = site.posts | where_exp: "p", "p.status != 'upcoming'" | limit: 4 %}
 
-<div id="content">
+<!-- HERO -->
+<section class="hp-hero">
+  <div class="hp-container">
+    <div class="hp-hero-grid">
 
-  <div class="container">
-    <div class="row">
-      {% for post in site.posts %}
-      <div class="col-xs-12 col-sm-12">
-        <div class="blog-block post-content-area">
-          <div class="blog-post">
-            <h3><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h3>
-            <p>{{ post.excerpt }}</p>
-            <a class="btn btn-common" href="{{ BASE_PATH }}{{ post.url }}">Read More</a>
+      <div class="hp-hero-left">
+        <p class="hp-eyebrow">Research Triangle · North Carolina</p>
+        <h1 class="hp-title">PowerShell community.<br>Built in the Triangle.</h1>
+        <p class="hp-sub">Monthly meetups covering PowerShell, DevOps, cloud automation, and infrastructure — open to all skill levels. Free, always.</p>
+        <div class="hp-stats">
+          <div class="hp-stat">
+            <span class="hp-stat-num">900+</span>
+            <span class="hp-stat-lbl">Members</span>
           </div>
-          {% if post.img %}
-          <a href="{{ BASE_PATH }}{{ post.url }}"><img src="{{ BASE_PATH }}/assets/images/{{ post.img }}"
-              href="{{ BASE_PATH }}{{ post.url }}" alt="{{ post.title }} image"></a>
-          {% endif %}
+          <div class="hp-stat">
+            <span class="hp-stat-num">#1</span>
+            <span class="hp-stat-lbl">PowerShell group in the US</span>
+          </div>
+          <div class="hp-stat">
+            <span class="hp-stat-num">Est. 2010</span>
+            <span class="hp-stat-lbl">15+ years running</span>
+          </div>
         </div>
-        <div class="mb-60"></div>
+        <div class="hp-actions">
+          {% if upcoming %}
+          <a href="{{ upcoming.url }}" class="hp-btn-primary">&#128197; Join Next Meeting</a>
+          {% else %}
+          <a href="https://www.meetup.com/research-triangle-powershell-users-group/"
+             class="hp-btn-primary" target="_blank" rel="noopener">&#128197; Join Us on Meetup</a>
+          {% endif %}
+          <a href="https://www.youtube.com/@RTPSUG"
+             class="hp-btn-secondary" target="_blank" rel="noopener">&#9654; Watch on YouTube</a>
+        </div>
+      </div>
+
+      {% if upcoming %}
+      <div class="hp-next-card">
+        <div class="hp-next-head">
+          <span class="hp-next-badge">Next Meeting</span>
+          <h2 class="hp-next-title">{{ upcoming.tagline }}</h2>
+          <div class="hp-next-meta">
+            <span>&#128197; {{ upcoming.date | date: "%A, %B %-d, %Y" }}</span>
+            <span>&#128348; 7:00 PM Eastern</span>
+            <span>&#128187; Online via Meetup</span>
+          </div>
+        </div>
+        <div class="hp-next-foot">
+          <div class="hp-next-tags">
+            {% for tag in upcoming.tags limit:3 %}
+            <span class="hp-tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+          <a href="{{ upcoming.url }}" class="hp-btn-rsvp">RSVP Free &rarr;</a>
+        </div>
+      </div>
+      {% endif %}
+
+    </div>
+  </div>
+</section>
+
+<!-- RECORDINGS -->
+{% if site.data.recordings %}
+<section class="hp-recordings">
+  <div class="hp-container">
+    <div class="hp-rec-header">
+      <span class="hp-rec-label">Recent Recordings</span>
+      <a href="https://www.youtube.com/@RTPSUG" class="hp-rec-all"
+         target="_blank" rel="noopener">View all on YouTube &rarr;</a>
+    </div>
+    <div class="hp-rec-grid">
+      {% for rec in site.data.recordings %}
+      <a href="{{ rec.url }}" class="hp-rec-card" target="_blank" rel="noopener">
+        <span class="hp-rec-play">&#9654;</span>
+        <div>
+          <div class="hp-rec-date">{{ rec.date }}</div>
+          <div class="hp-rec-title">{{ rec.title }}</div>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- PAST MEETINGS -->
+<section class="hp-past">
+  <div class="hp-container">
+    <div class="hp-section-head">
+      <span class="hp-section-title">Past Meetings</span>
+      <a href="/blog" class="hp-section-more">View all meetings &rarr;</a>
+    </div>
+    <div class="hp-posts">
+      {% for post in past_posts %}
+      <div class="hp-post-card">
+        <div>
+          <div class="hp-post-date">{{ post.date | date: "%Y-%m-%d" }}</div>
+          <h3 class="hp-post-title">
+            <a href="{{ post.url }}">{{ post.tagline | default: post.title }}</a>
+          </h3>
+          <p class="hp-post-excerpt">
+            {{ post.excerpt | strip_html | truncatewords: 30 }}
+          </p>
+          <div class="hp-post-tags">
+            {% for tag in post.tags limit:4 %}
+            <span class="hp-tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+        </div>
+        <a href="{{ post.url }}" class="hp-post-more">Read more</a>
       </div>
       {% endfor %}
     </div>
   </div>
-
-</div>
-
-<!-- Content area end -->
+</section>
