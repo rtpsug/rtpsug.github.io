@@ -231,6 +231,15 @@ body { background: var(--hp-bg) !important; }
   gap: 8px;
 }
 
+.hp-next-meta-link {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.hp-next-meta-link:hover {
+  text-decoration: underline !important;
+}
+
 .hp-next-foot {
   padding: 14px 20px;
   display: flex;

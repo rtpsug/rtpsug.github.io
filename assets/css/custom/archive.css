@@ -1,0 +1,309 @@
+/* ============================================================
+   RTPSUG Archive Page — assets/css/custom/archive.css
+   Loaded only on archive.html via hardcoded <link>.
+   All classes prefixed ap- to avoid Bootstrap 4 conflicts.
+   ============================================================ */
+
+:root {
+  --ap-navy:        #012456;
+  --ap-navy-hover:  #01306e;
+  --ap-blue:        #0072C6;
+  --ap-blue-light:  #e0f0ff;
+  --ap-bg:          #f0f4ff;
+  --ap-card:        #ffffff;
+  --ap-gray-100:    #f3f4f6;
+  --ap-gray-200:    #e5e7eb;
+  --ap-gray-400:    #9ca3af;
+  --ap-gray-500:    #6b7280;
+  --ap-gray-700:    #374151;
+  --ap-gray-900:    #111827;
+  --ap-shadow-sm:   0 1px 3px rgba(0,0,0,.07), 0 1px 2px rgba(0,0,0,.04);
+  --ap-radius:      8px;
+}
+
+/* ── PAGE BACKGROUND ── */
+body { background: var(--ap-bg) !important; }
+
+/* ── CONTAINER ── */
+.ap-container {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ── HERO ── */
+.ap-hero {
+  background: linear-gradient(135deg, #012456 0%, #0a3576 100%);
+  padding: 36px 0 28px;
+  margin-bottom: 0;
+}
+
+.ap-hero-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.45);
+  margin-bottom: 8px;
+}
+
+.ap-hero-title {
+  font-size: 28px;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 6px;
+  letter-spacing: -.02em;
+}
+
+.ap-hero-sub {
+  font-size: 14px;
+  color: rgba(255,255,255,.6);
+}
+
+/* ── TAB BAR ── */
+.ap-tab-bar {
+  background: #fff;
+  border-bottom: 2px solid var(--ap-gray-200);
+  padding: 0 24px;
+  display: flex;
+  gap: 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.ap-tab {
+  padding: 14px 22px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ap-gray-500);
+  cursor: pointer;
+  border: none;
+  background: none;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  transition: color .15s, border-color .15s;
+}
+
+.ap-tab.active {
+  color: var(--ap-navy);
+  border-bottom-color: var(--ap-blue);
+}
+
+.ap-tab:hover:not(.active) {
+  color: var(--ap-gray-700);
+}
+
+/* ── BODY ── */
+.ap-body {
+  padding: 32px 0 64px;
+}
+
+.ap-panel { display: none; }
+.ap-panel.active { display: block; }
+
+/* ── YEAR VIEW ── */
+.ap-year-group {
+  margin-bottom: 36px;
+}
+
+.ap-year-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.ap-year-label {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--ap-navy);
+  line-height: 1;
+}
+
+.ap-year-count {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--ap-gray-400);
+  background: var(--ap-gray-200);
+  padding: 2px 9px;
+  border-radius: 10px;
+}
+
+.ap-year-rule {
+  flex: 1;
+  height: 1px;
+  background: var(--ap-gray-200);
+}
+
+.ap-meeting-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  background: var(--ap-card);
+  border-radius: var(--ap-radius);
+  padding: 13px 16px;
+  margin-bottom: 8px;
+  border: 1px solid var(--ap-gray-200);
+  box-shadow: var(--ap-shadow-sm);
+  transition: box-shadow .15s;
+}
+
+.ap-meeting-row:hover {
+  box-shadow: 0 3px 8px rgba(0,0,0,.1);
+}
+
+.ap-meeting-date {
+  font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--ap-blue);
+  min-width: 95px;
+  padding-top: 2px;
+  flex-shrink: 0;
+}
+
+.ap-meeting-info {
+  flex: 1;
+}
+
+.ap-meeting-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--ap-gray-900);
+  text-decoration: none !important;
+  display: block;
+  margin-bottom: 6px;
+  line-height: 1.3;
+}
+
+.ap-meeting-title:hover {
+  color: var(--ap-blue) !important;
+}
+
+.ap-meeting-tags {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.ap-tag {
+  font-size: 11px;
+  background: var(--ap-gray-100);
+  color: var(--ap-gray-500);
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.ap-meeting-link {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ap-blue);
+  text-decoration: none !important;
+  white-space: nowrap;
+  padding-top: 2px;
+  flex-shrink: 0;
+}
+
+.ap-meeting-link:hover {
+  text-decoration: underline !important;
+}
+
+/* ── TOPIC VIEW ── */
+.ap-topic-intro {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--ap-gray-400);
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  margin-bottom: 16px;
+}
+
+.ap-topic-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+
+@media (max-width: 768px) {
+  .ap-topic-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 960px) and (min-width: 769px) {
+  .ap-topic-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+.ap-topic-card {
+  background: var(--ap-card);
+  border-radius: var(--ap-radius);
+  padding: 16px;
+  border: 1px solid var(--ap-gray-200);
+  box-shadow: var(--ap-shadow-sm);
+}
+
+.ap-topic-name {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--ap-navy);
+  margin-bottom: 2px;
+}
+
+.ap-topic-count {
+  font-size: 11px;
+  color: var(--ap-gray-400);
+  margin-bottom: 10px;
+}
+
+.ap-topic-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ap-topic-list li {
+  font-size: 13px;
+  line-height: 1.5;
+  border-top: 1px solid var(--ap-gray-100);
+  padding: 4px 0;
+}
+
+.ap-topic-list li:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+
+.ap-topic-list a {
+  color: var(--ap-gray-700) !important;
+  text-decoration: none !important;
+}
+
+.ap-topic-list a:hover {
+  color: var(--ap-blue) !important;
+}
+
+.ap-topic-more {
+  font-size: 12px;
+  color: var(--ap-gray-400);
+  margin-top: 6px;
+  display: block;
+}
+
+/* ── FOOTER ── */
+.ap-footer {
+  background: var(--ap-card);
+  border-top: 1px solid var(--ap-gray-200);
+  padding: 14px 24px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.ap-footer a {
+  color: var(--ap-blue) !important;
+  text-decoration: none !important;
+  font-weight: 600;
+}
+
+.ap-footer a:hover {
+  text-decoration: underline !important;
+}

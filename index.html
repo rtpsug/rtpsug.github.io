@@ -58,7 +58,7 @@ canonical: https://rtpsug.com
           <div class="hp-next-meta">
             <span>&#128197; {{ upcoming.date | date: "%A, %B %-d, %Y" }}</span>
             <span>&#128348; 7:00 PM Eastern</span>
-            <span>&#128187; Online via Meetup</span>
+            <a href="{{ upcoming.meetup_url | default: 'https://www.meetup.com/research-triangle-powershell-users-group/' }}" target="_blank" rel="noopener" class="hp-next-meta-link">&#128187; Online via Meetup</a>
           </div>
         </div>
         <div class="hp-next-foot">
@@ -105,7 +105,7 @@ canonical: https://rtpsug.com
   <div class="hp-container">
     <div class="hp-section-head">
       <span class="hp-section-title">Past Meetings</span>
-      <a href="/blog" class="hp-section-more">View all meetings &rarr;</a>
+      <a href="/archive" class="hp-section-more">View all meetings &rarr;</a>
     </div>
     <div class="hp-posts">
       {% for post in past_posts %}

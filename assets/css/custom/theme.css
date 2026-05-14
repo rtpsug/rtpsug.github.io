@@ -1,0 +1,7 @@
+/* ============================================================
+   RTPSUG — assets/css/custom/theme.css
+   Site-wide overrides. Loaded in default.html after Bootstrap.
+   Class prefix: t-
+   ============================================================ */
+
+html { font-size: 18px; }
