@@ -1,32 +1,109 @@
 ---
-layout: blog
-title: Tags
-tagline: List of Tags
-tags :
-author : RTPSUG
+layout: default
+title: Topics
+tagline: All RTPSUG meetups browsable by topic.
+author: rtpsug
 css:
 js:
-bgcolor: ff5a71
-keywords:
-canonical: https://grads.github.io/blog
+keywords: PowerShell, meetup, tags, topics, RTPSUG
+canonical: https://rtpsug.com/tags
 ---
 {% include JB/setup %}
+<link rel="stylesheet" type="text/css" href="{{ BASE_PATH }}/assets/css/custom/archive.css" />
 
-<h1 id="title">{{ page.title }}</h1>
-{% if page.tagline %}
-<p class="lead">{{ page.tagline }}</p>
-{% endif %}
-<!--
-<ul class="nav nav-pills">
-  {% assign tags_list = site.tags %}
-  {% include JB/tags_list %}
-</ul>
--->
+{% assign all_posts = site.posts | where_exp: "p", "p.status != 'upcoming'" %}
 
-{% for tag in site.tags %}
-<h2 id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
-<ul>
-  {% assign posts_list = tag[1] %}
-  {% include JB/posts_list %}
-</ul>
+{% assign all_tags = "" | split: "" %}
+{% for post in all_posts %}
+  {% assign all_tags = all_tags | concat: post.tags %}
 {% endfor %}
+{% assign all_tags = all_tags | uniq | sort %}
+
+<!-- HERO -->
+<div class="ap-hero">
+  <div class="ap-container">
+    <div class="ap-hero-label">Research Triangle PowerShell User Group</div>
+    <div class="ap-hero-title">Topics</div>
+    <div class="ap-hero-sub">{{ all_tags | size }} topics &mdash; {{ all_posts | size }} meetings</div>
+  </div>
+</div>
+
+<!-- TAG NAV -->
+<div class="ap-tab-bar">
+  <div class="ap-container ap-tag-nav" id="ap-tag-nav">
+    <a href="/tags" class="ap-tag-nav-back" id="ap-tag-nav-back" style="display:none">&larr; All Topics</a>
+    {% for tag in all_tags %}
+    <a href="#{{ tag | slugify }}-ref" class="ap-tag-nav-link" data-tag="{{ tag | slugify }}-ref">{{ tag }}</a>
+    {% endfor %}
+  </div>
+</div>
+
+<!-- BODY -->
+<div class="ap-body">
+  <div class="ap-container">
+
+    {% for tag in all_tags %}
+      {% assign tag_posts = "" | split: "" %}
+      {% for post in all_posts %}
+        {% if post.tags contains tag %}
+          {% assign tag_posts = tag_posts | push: post %}
+        {% endif %}
+      {% endfor %}
+      {% if tag_posts.size > 0 %}
+      <div class="ap-year-group" id="{{ tag | slugify }}-ref">
+        <div class="ap-year-header">
+          <span class="ap-year-label">{{ tag }}</span>
+          <span class="ap-year-count">{{ tag_posts | size }} meeting{% if tag_posts.size != 1 %}s{% endif %}</span>
+          <div class="ap-year-rule"></div>
+        </div>
+        {% for post in tag_posts %}
+        <div class="ap-meeting-row">
+          <div class="ap-meeting-date">{{ post.date | date: "%Y-%m-%d" }}</div>
+          <div class="ap-meeting-info">
+            <a href="{{ post.url }}" class="ap-meeting-title">{{ post.tagline | default: post.title }}</a>
+            {% if post.tags.size > 0 %}
+            <div class="ap-meeting-tags">
+              {% for t in post.tags limit:4 %}
+              <span class="ap-tag">{{ t }}</span>
+              {% endfor %}
+            </div>
+            {% endif %}
+          </div>
+          <a href="{{ post.url }}" class="ap-meeting-link">View &rarr;</a>
+        </div>
+        {% endfor %}
+      </div>
+      {% endif %}
+    {% endfor %}
+
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div class="ap-footer">
+  <a href="/archive">&larr; Back to Archive</a>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var navLinks = document.querySelectorAll('.ap-tag-nav-link');
+  var sections = document.querySelectorAll('.ap-year-group');
+  var back     = document.getElementById('ap-tag-nav-back');
+
+  function apSyncNav() {
+    var hash = (window.location.hash || '').replace('#', '');
+    if (hash) {
+      navLinks.forEach(function (l) { l.style.display = l.dataset.tag === hash ? '' : 'none'; });
+      sections.forEach(function (s) { s.style.display = s.id === hash ? '' : 'none'; });
+      back.style.display = '';
+    } else {
+      navLinks.forEach(function (l) { l.style.display = ''; });
+      sections.forEach(function (s) { s.style.display = ''; });
+      back.style.display = 'none';
+    }
+  }
+
+  apSyncNav();
+  window.addEventListener('hashchange', apSyncNav);
+});
+</script>
