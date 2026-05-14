@@ -24,7 +24,8 @@ canonical: https://rtpsug.com/team
 <div class="pg-body">
   <div class="pg-container">
     <div class="pg-team-grid">
-      {% for member in site.team %}
+      {% assign active_members = site.team | where: "active", true %}
+      {% for member in active_members %}
       <div class="pg-team-card">
         {% if member.img %}
         <img src="{{ BASE_PATH }}/assets/images/team/{{ member.img }}" alt="{{ member.name }}" class="pg-team-img">

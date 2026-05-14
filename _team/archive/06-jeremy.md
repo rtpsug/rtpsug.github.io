@@ -1,5 +1,6 @@
 ---
 name : Jeremy Brown
+active: false
 img: jeremy.jpg
 twitter : BananaJama
 website : https://github.com/BananaJama

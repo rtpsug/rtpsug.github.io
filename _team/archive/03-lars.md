@@ -1,5 +1,6 @@
 ---
 name : Lars Rasmussen
+active: false
 img : lars.png
 twitter : nanoDBA
 website : 

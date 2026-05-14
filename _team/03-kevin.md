@@ -1,5 +1,6 @@
 ---
 name : Kevin Laux
+active: false
 img : kevin.jpg
 twitter : rsrychro
 linkedin : kevinlaux

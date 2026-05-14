@@ -1,5 +1,6 @@
 ---
 name : Phil Bossman
+active: true
 img : phil.jpg
 twitter : schlauge
 website : https://schlauge.com
