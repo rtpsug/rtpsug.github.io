@@ -1,70 +1,52 @@
 ---
-layout: index
+layout: default
 title: Our Team
 group: navigation
-tagline:
-tags : [team, components]
-img :
-img-mobile :
-author : RTPSUG
+author: rtpsug
 css:
 js:
-keywords: components, demo
-canonical: https://rtpsug.com
+keywords: PowerShell, team, organizers, RTPSUG
+canonical: https://rtpsug.com/team
 ---
 {% include JB/setup %}
-<!-- Content Area Start -->
-<div id="content">
-  <div class="container">
-    <!-- row start -->
-    <div class="row">
-      <div class="col-md-12">
-        <div class="page-header-title">
-          <h2 class="heading-title text-center">Co-Organizers</h2>
-        </div>
-        <!-- Team Members 01 -->
-        <div class="team-members-tow mtb-50">
-          <div class="row">
-            <!--START TEAM LOOP-->
-            {% for team_member in site.team %}
-            <div class="col-sm-6 col-md-4">
-              <!-- Team Item Starts -->
-              <div class="team-item">
-                <figure class="team-profile">
-                  <img src="{{ BASE_PATH }}/assets/images/team/{{ team_member.img }}" alt="">
-                  <figcaption class="our-team">
-                    <div class="details col-md-12">
-                      <p class="content-white">{{ team_member.slogan }}</p>
-                      <hr class="small-divider border-white">
-                      <ul class="social-icons text-center">
-                        {% if team_member.twitter %}<li><a href="https://twitter.com/{{ team_member.twitter }}"
-                            target="_blank" title="@{{ team_member.twitter }}"><i class="fa fa-twitter"
-                              aria-hidden="true"></i></a></li>{% endif %}
-                        {% if team_member.linkedin %}<li><a
-                            href="https://www.linkedin.com/in/{{ team_member.linkedin }}/" target="_blank"
-                            title="{{ team_member.linkedin }}"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>{% endif %}
-                        {% if team_member.website %}<li><a href="{{ team_member.website }}" target="_blank"
-                            title="{{ team_member.website }}"><i class="fa fa-cloud" aria-hidden="true"></i></a></li>
-                        {% endif %}
-                      </ul>
-                    </div>
-                  </figcaption>
-                </figure>
-                <div class="info">
-                  <h2>
-                    {{ team_member.name }}
-                  </h2>
-                </div>
-              </div>
-              <!-- Team Item Ends -->
-            </div>
-            {% endfor %}
-            <!--END TEAM LOOP-->
+<link rel="stylesheet" type="text/css" href="{{ BASE_PATH }}/assets/css/custom/pages.css" />
+
+<!-- HERO -->
+<div class="pg-hero">
+  <div class="pg-container">
+    <div class="pg-hero-label">Research Triangle PowerShell User Group</div>
+    <div class="pg-hero-title">Our Team</div>
+    <div class="pg-hero-sub">The co-organizers keeping RTPSUG running.</div>
+  </div>
+</div>
+
+<!-- BODY -->
+<div class="pg-body">
+  <div class="pg-container">
+    <div class="pg-team-grid">
+      {% for member in site.team %}
+      <div class="pg-team-card">
+        {% if member.img %}
+        <img src="{{ BASE_PATH }}/assets/images/team/{{ member.img }}" alt="{{ member.name }}" class="pg-team-img">
+        {% endif %}
+        <div class="pg-team-body">
+          <div class="pg-team-name">{{ member.name }}</div>
+          {% if member.job %}<div class="pg-team-role">{{ member.job }}</div>{% endif %}
+          {% if member.slogan %}<div class="pg-team-slogan">"{{ member.slogan }}"</div>{% endif %}
+          <div class="pg-team-links">
+            {% if member.twitter %}
+            <a href="https://twitter.com/{{ member.twitter }}" class="pg-team-link" target="_blank" rel="noopener" title="Twitter"><i class="fa fa-twitter"></i></a>
+            {% endif %}
+            {% if member.linkedin %}
+            <a href="https://www.linkedin.com/in/{{ member.linkedin }}/" class="pg-team-link" target="_blank" rel="noopener" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+            {% endif %}
+            {% if member.website %}
+            <a href="{{ member.website }}" class="pg-team-link" target="_blank" rel="noopener" title="Website"><i class="fa fa-globe"></i></a>
+            {% endif %}
           </div>
-          <!-- End Team Members 01 -->
         </div>
       </div>
+      {% endfor %}
     </div>
   </div>
-  <!-- Content Area End -->
+</div>
