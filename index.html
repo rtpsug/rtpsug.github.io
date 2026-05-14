@@ -13,7 +13,7 @@ canonical: https://rtpsug.com
 ---
 {% include JB/setup %}
 {% assign upcoming = site.posts | where: "status", "upcoming" | first %}
-{% assign past_posts = site.posts | where_exp: "p", "p.status != 'upcoming'" | limit: 4 %}
+{% assign past_posts = site.posts | where_exp: "p", "p.status != 'upcoming'" | limit: 3 %}
 
 <!-- HERO -->
 <section class="hp-hero">
