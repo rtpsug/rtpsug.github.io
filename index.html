@@ -108,7 +108,7 @@ canonical: https://rtpsug.com
       <a href="/archive" class="hp-section-more">View all meetings &rarr;</a>
     </div>
     <div class="hp-posts">
-      {% for post in past_posts %}
+      {% for post in past_posts limit: 3 %}
       <div class="hp-post-card">
         <div>
           <div class="hp-post-date">{{ post.date | date: "%Y-%m-%d" }}</div>
