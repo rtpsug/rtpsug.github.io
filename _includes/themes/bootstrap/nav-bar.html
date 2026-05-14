@@ -30,6 +30,49 @@
             {% assign group = 'navigation' %}
             {% include JB/pages_list %}
           </ul>
+          <div class="ap-search-wrap">
+            <input type="text" id="ap-search" class="ap-search-input" placeholder="Find a topic..." autocomplete="off" spellcheck="false">
+            <ul class="ap-search-dropdown" id="ap-search-dd"></ul>
+          </div>
     </div>
   </div>
   </nav>
+
+<script>
+var AP_TAGS=[{% for tag in site.tags %}{"l":"{{ tag[0] | escape }}","s":"{{ tag[0] | slugify }}-ref"}{% unless forloop.last %},{% endunless %}{% endfor %}];
+document.addEventListener('DOMContentLoaded',function(){
+  var input=document.getElementById('ap-search');
+  var dd=document.getElementById('ap-search-dd');
+  if(!input||!dd)return;
+  var activeIdx=-1;
+  function clearDd(){while(dd.firstChild){dd.removeChild(dd.firstChild);}}
+  function render(query){
+    var q=query.toLowerCase().trim();
+    var matches=q?AP_TAGS.filter(function(t){return t.l.toLowerCase().indexOf(q)!==-1;}):[];
+    clearDd();activeIdx=-1;
+    if(!matches.length){dd.classList.remove('open');return;}
+    matches.forEach(function(t){
+      var li=document.createElement('li');
+      li.textContent=t.l;li.dataset.hash=t.s;
+      li.addEventListener('mousedown',function(e){e.preventDefault();go(t);});
+      dd.appendChild(li);
+    });
+    dd.classList.add('open');
+  }
+  function go(t){input.value='';dd.classList.remove('open');window.location.href='/tags#'+t.s;}
+  function setActive(idx){
+    var items=dd.querySelectorAll('li');
+    items.forEach(function(li){li.classList.remove('active');});
+    if(idx>=0&&idx<items.length){items[idx].classList.add('active');activeIdx=idx;}
+  }
+  input.addEventListener('input',function(){render(this.value);});
+  input.addEventListener('keydown',function(e){
+    var items=dd.querySelectorAll('li');
+    if(e.key==='ArrowDown'){e.preventDefault();setActive(Math.min(activeIdx+1,items.length-1));}
+    else if(e.key==='ArrowUp'){e.preventDefault();setActive(Math.max(activeIdx-1,0));}
+    else if(e.key==='Enter'){e.preventDefault();if(activeIdx>=0&&items[activeIdx])go({l:items[activeIdx].textContent,s:items[activeIdx].dataset.hash});}
+    else if(e.key==='Escape'){dd.classList.remove('open');input.value='';}
+  });
+  input.addEventListener('blur',function(){dd.classList.remove('open');input.value='';});
+});
+</script>

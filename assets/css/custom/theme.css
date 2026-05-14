@@ -1,7 +1,155 @@
 /* ============================================================
    RTPSUG — assets/css/custom/theme.css
    Site-wide overrides. Loaded in default.html after Bootstrap.
-   Class prefix: t-
    ============================================================ */
 
 html, body { font-size: 28px; }
+
+/* ── TOP UTILITY BAR ── */
+.top-menu {
+  background: #01306e;
+}
+
+.top-menu p {
+  margin: 0;
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-menu a {
+  color: rgba(255,255,255,.65) !important;
+  font-size: 0.5rem;
+  font-weight: 500;
+  text-decoration: none !important;
+}
+
+.top-menu a:hover {
+  color: #fff !important;
+}
+
+.top-menu .fa {
+  font-size: 0.5rem;
+}
+
+/* ── MAIN NAVBAR ── */
+nav.navbar {
+  background: #012456 !important;
+}
+
+.navbar-nav .nav-link {
+  color: rgba(255,255,255,.8) !important;
+  font-size: 0.6rem;
+  font-weight: 600;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .active > .nav-link {
+  color: #fff !important;
+}
+
+.navbar-toggler {
+  border-color: rgba(255,255,255,.25);
+}
+
+.navbar-toggler .fa {
+  color: rgba(255,255,255,.8);
+}
+
+/* ── FOOTER ── */
+.default-footer {
+  background: #012456 !important;
+  border-top: 1px solid #01306e;
+  padding: 24px 0;
+}
+
+.default-footer .copy-right {
+  display: block;
+  color: rgba(255,255,255,.45);
+  font-size: 0.5rem;
+  margin-bottom: 12px;
+}
+
+.default-footer .social {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.default-footer .social a {
+  color: rgba(255,255,255,.55) !important;
+  transition: color .15s;
+}
+
+.default-footer .social a:hover {
+  color: #fff !important;
+}
+
+.default-footer .fa-2x {
+  font-size: 0.85rem !important;
+}
+
+/* ── GLOBAL SEARCH (navbar) ── */
+.ap-search-wrap {
+  position: relative;
+  margin-left: 16px;
+}
+
+.ap-search-input {
+  background: rgba(255,255,255,.1);
+  border: 1px solid rgba(255,255,255,.2);
+  border-radius: 6px;
+  padding: 5px 10px;
+  font-size: 0.6rem;
+  color: rgba(255,255,255,.9);
+  outline: none;
+  width: 180px;
+  transition: border-color .15s, background .15s;
+}
+
+.ap-search-input::placeholder {
+  color: rgba(255,255,255,.4);
+}
+
+.ap-search-input:focus {
+  border-color: rgba(255,255,255,.5);
+  background: rgba(255,255,255,.18);
+}
+
+.ap-search-dropdown {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  left: auto;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0,0,0,.15);
+  list-style: none;
+  margin: 0;
+  padding: 4px 0;
+  z-index: 9999;
+  display: none;
+  max-height: 280px;
+  overflow-y: auto;
+  min-width: 220px;
+}
+
+.ap-search-dropdown.open {
+  display: block;
+}
+
+.ap-search-dropdown li {
+  padding: 7px 12px;
+  font-size: 0.65rem;
+  color: #111827;
+  cursor: pointer;
+  list-style: none;
+}
+
+.ap-search-dropdown li.active,
+.ap-search-dropdown li:hover {
+  background: #e0f0ff;
+  color: #0072C6;
+}
