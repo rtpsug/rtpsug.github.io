@@ -26,7 +26,7 @@ body { background: var(--ap-bg) !important; }
 
 /* ── CONTAINER ── */
 .ap-container {
-  max-width: 1040px;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 0 24px;
 }
@@ -39,7 +39,7 @@ body { background: var(--ap-bg) !important; }
 }
 
 .ap-hero-label {
-  font-size: 11px;
+  font-size: 0.55rem;
   font-weight: 700;
   letter-spacing: .1em;
   text-transform: uppercase;
@@ -48,7 +48,7 @@ body { background: var(--ap-bg) !important; }
 }
 
 .ap-hero-title {
-  font-size: 28px;
+  font-size: clamp(0.9rem, 1.5vw + 0.3rem, 1.1rem);
   font-weight: 800;
   color: #fff;
   margin-bottom: 6px;
@@ -56,7 +56,7 @@ body { background: var(--ap-bg) !important; }
 }
 
 .ap-hero-sub {
-  font-size: 14px;
+  font-size: 0.7rem;
   color: rgba(255,255,255,.6);
 }
 
@@ -74,7 +74,7 @@ body { background: var(--ap-bg) !important; }
 
 .ap-tab {
   padding: 14px 22px;
-  font-size: 14px;
+  font-size: 0.7rem;
   font-weight: 600;
   color: var(--ap-gray-500);
   cursor: pointer;
@@ -115,14 +115,14 @@ body { background: var(--ap-bg) !important; }
 }
 
 .ap-year-label {
-  font-size: 20px;
+  font-size: 1rem;
   font-weight: 800;
   color: var(--ap-navy);
   line-height: 1;
 }
 
 .ap-year-count {
-  font-size: 11px;
+  font-size: 0.55rem;
   font-weight: 700;
   color: var(--ap-gray-400);
   background: var(--ap-gray-200);
@@ -155,7 +155,7 @@ body { background: var(--ap-bg) !important; }
 
 .ap-meeting-date {
   font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
-  font-size: 12px;
+  font-size: 0.6rem;
   font-weight: 600;
   color: var(--ap-blue);
   min-width: 95px;
@@ -168,7 +168,7 @@ body { background: var(--ap-bg) !important; }
 }
 
 .ap-meeting-title {
-  font-size: 15px;
+  font-size: 0.75rem;
   font-weight: 600;
   color: var(--ap-gray-900);
   text-decoration: none !important;
@@ -188,7 +188,7 @@ body { background: var(--ap-bg) !important; }
 }
 
 .ap-tag {
-  font-size: 11px;
+  font-size: 0.55rem;
   background: var(--ap-gray-100);
   color: var(--ap-gray-500);
   padding: 2px 8px;
@@ -197,7 +197,7 @@ body { background: var(--ap-bg) !important; }
 }
 
 .ap-meeting-link {
-  font-size: 13px;
+  font-size: 0.65rem;
   font-weight: 600;
   color: var(--ap-blue);
   text-decoration: none !important;
@@ -212,7 +212,7 @@ body { background: var(--ap-bg) !important; }
 
 /* ── TOPIC VIEW ── */
 .ap-topic-intro {
-  font-size: 12px;
+  font-size: 0.6rem;
   font-weight: 700;
   color: var(--ap-gray-400);
   text-transform: uppercase;
@@ -243,14 +243,14 @@ body { background: var(--ap-bg) !important; }
 }
 
 .ap-topic-name {
-  font-size: 14px;
+  font-size: 0.7rem;
   font-weight: 700;
   color: var(--ap-navy);
   margin-bottom: 2px;
 }
 
 .ap-topic-count {
-  font-size: 11px;
+  font-size: 0.55rem;
   color: var(--ap-gray-400);
   margin-bottom: 10px;
 }
@@ -262,7 +262,7 @@ body { background: var(--ap-bg) !important; }
 }
 
 .ap-topic-list li {
-  font-size: 13px;
+  font-size: 0.65rem;
   line-height: 1.5;
   border-top: 1px solid var(--ap-gray-100);
   padding: 4px 0;
@@ -283,7 +283,7 @@ body { background: var(--ap-bg) !important; }
 }
 
 .ap-topic-more {
-  font-size: 12px;
+  font-size: 0.6rem;
   color: var(--ap-gray-400);
   margin-top: 6px;
   display: block;
@@ -294,7 +294,7 @@ body { background: var(--ap-bg) !important; }
   background: var(--ap-card);
   border-top: 1px solid var(--ap-gray-200);
   padding: 14px 24px;
-  font-size: 13px;
+  font-size: 0.65rem;
   text-align: center;
 }
 
