@@ -50,6 +50,10 @@
 
       <!-- MAIN CONTENT -->
       <div class="pp-main">
+        {% if page.img %}
+        <img src="{{ BASE_PATH }}/assets/images/{{ page.img }}" alt="{{ page.tagline | default: page.title }}" class="pp-feature-img">
+        {% endif %}
+
         {% if page.status == "upcoming" %}
         {% assign rsvp_href = page.meetup_url | default: "https://www.meetup.com/research-triangle-powershell-users-group/" %}
         <a href="{{ rsvp_href }}"
