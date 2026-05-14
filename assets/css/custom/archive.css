@@ -64,12 +64,14 @@ body { background: var(--ap-bg) !important; }
 .ap-tab-bar {
   background: #fff;
   border-bottom: 2px solid var(--ap-gray-200);
-  padding: 0 24px;
-  display: flex;
-  gap: 0;
   position: sticky;
   top: 0;
   z-index: 10;
+}
+
+.ap-tab-bar .ap-container {
+  display: flex;
+  gap: 0;
 }
 
 .ap-tab {
@@ -93,6 +95,42 @@ body { background: var(--ap-bg) !important; }
 .ap-tab:hover:not(.active) {
   color: var(--ap-gray-700);
 }
+
+/* ── TAG NAV (tags.html only) ── */
+.ap-tag-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.ap-tag-nav-link {
+  font-size: 0.6rem;
+  font-weight: 600;
+  color: var(--ap-gray-500) !important;
+  background: var(--ap-gray-100);
+  border-radius: 4px;
+  padding: 3px 9px;
+  text-decoration: none !important;
+  transition: background .15s, color .15s;
+}
+
+.ap-tag-nav-link:hover {
+  background: var(--ap-blue-light);
+  color: var(--ap-blue) !important;
+}
+
+.ap-tag-nav-back {
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: var(--ap-blue) !important;
+  text-decoration: none !important;
+  padding: 3px 0;
+  margin-right: 8px;
+}
+
+.ap-tag-nav-back:hover { text-decoration: underline !important; }
 
 /* ── BODY ── */
 .ap-body {
